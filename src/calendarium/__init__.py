@@ -1,0 +1,78 @@
+"""Calendarium -- referential of computed dates (public holidays and observances).
+
+Python port of https://github.com/Black-Beard-Sdk/Calendarium : every country
+is described by a JSON configuration file whose date rules are written in a
+small DSL (``"12-25"``, ``"[EASTER] + 39"``, ``"? (SATURDAY | SUNDAY) : >> MONDAY"``).
+
+Quick start::
+
+    from calendarium import Calendarium
+
+    cal = Calendarium.bundled()
+    dates = cal.get_dates(2024, "France")
+    for d, identified in dates.items():
+        for event in identified.events:
+            print(d, event.name, event.observed, event.free)
+"""
+
+from .calendars import (
+    CalendarBase,
+    UnsupportedCalendarError,
+    get_calendar,
+    julian_to_gregorian,
+)
+from .core import Calendarium
+from .easter import easter_date, orthodox_easter_date
+from .loader import (
+    bundled_data_path,
+    load_bundled,
+    load_directory,
+    load_file,
+)
+from .models import (
+    CountryConfiguration,
+    EventDate,
+    IdentifiedDate,
+    Period,
+    Region,
+    Translation,
+)
+from .rules import (
+    DateRule,
+    ObservedRule,
+    RuleSyntaxError,
+    parse_date_rule,
+    parse_observed_rule,
+    register_function,
+    registered_functions,
+)
+
+__version__ = "0.1.0"
+
+__all__ = [
+    "Calendarium",
+    "CalendarBase",
+    "CountryConfiguration",
+    "DateRule",
+    "EventDate",
+    "IdentifiedDate",
+    "ObservedRule",
+    "Period",
+    "Region",
+    "RuleSyntaxError",
+    "Translation",
+    "UnsupportedCalendarError",
+    "__version__",
+    "bundled_data_path",
+    "easter_date",
+    "get_calendar",
+    "julian_to_gregorian",
+    "load_bundled",
+    "load_directory",
+    "load_file",
+    "orthodox_easter_date",
+    "parse_date_rule",
+    "parse_observed_rule",
+    "register_function",
+    "registered_functions",
+]

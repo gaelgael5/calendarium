@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calendarium"
+version = "0.1.0"
+description = "Referential of computed dates (public holidays and observances) driven by per-country JSON rule files."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Gael Beard", email = "gaelgael5@gmail.com" }]
+requires-python = ">=3.9"
+keywords = ["holidays", "calendar", "dates", "easter", "hijri", "observed"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://github.com/gaelgael5/calendarium"
+
+[project.scripts]
+calendarium = "calendarium.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+calendarium = ["data/countries/*.json", "data/countries/not_checked/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

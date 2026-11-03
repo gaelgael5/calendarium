@@ -1,0 +1,192 @@
+// calendar : Gregorian
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Poland",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "Fat Thursday",
+      "RuleDate": "([EASTER]) - 51",
+      "Free": false,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Shrove Tuesday",
+      "RuleDate": "([EASTER]) - 46",
+      "Free": false,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Constitution Day",
+      "RuleDate": "5-3",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "All Saints' Day",
+      "RuleDate": "11-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Assumption",
+      "RuleDate": "8-15",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas 2nd Day",
+      "RuleDate": "12-26",
+      "Free": true,
+      "Translations": [],
+      "Tags": [],
+      "YearFrom" : 2013
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Corpus Christi",
+      "RuleDate": "([EASTER]) + 60",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Day",
+      "RuleDate": "[EASTER]",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([EASTER]) + 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "11-11",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "National Holiday",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Flag Day",
+      "RuleDate": "5-2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Epiphany",
+      "RuleDate": "1-6",
+      "Free": false,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Pentecost",
+      "RuleDate": "([EASTER]) + 49",
+      "Free": false,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Ash Wednesday",
+      "RuleDate": "([EASTER]) - 39",
+      "Free": false,
+      "Translations": [],
+      "Tags": []
+    },{
+      "Name": "Ascension Day",
+      "RuleDate": "([EASTER]) + 39",
+      "Free": false,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Eve",
+      "RuleDate": "12-24",
+      "Free": false,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "New Year's Eve",
+      "RuleDate": "12-31",
+      "Free": false,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Grandmother's Day",
+      "RuleDate": "1-21",
+      "Free": false,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Grandfather's Day",
+      "RuleDate": "1-22",
+      "Free": false,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Mother's Day",
+      "RuleDate": "5-26",
+      "Free": false,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Children's Day",
+      "RuleDate": "6-1",
+      "Free": false,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Father's Day",
+      "RuleDate": "6-23",
+      "Free": false,
+      "Translations": [],
+      "Tags": []
+    }
+  ],
+  "Culture": "pl",
+  "Calendar": "Gregorian"
+}
