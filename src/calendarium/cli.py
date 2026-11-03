@@ -130,15 +130,26 @@ def cmd_compute(args: argparse.Namespace) -> int:
 def cmd_show(args: argparse.Namespace) -> int:
     cal = _load(args)
     d = _parse_date(args.date)
+
     identified = cal.get_date(d, args.country, region=args.region)
-    if identified is None or not identified.events:
+    actual_events = identified.events if identified else []
+
+    observed = cal.get_date(d, args.country, region=args.region, key="observed")
+    shifted_in = [e for e in (observed.events if observed else []) if e.is_shifted]
+
+    if not actual_events and not shifted_in:
         print(f"{d}: no festivity for {args.country}")
         return 1
-    for event in identified.events:
-        observed = f", observed {event.observed}" if event.is_shifted else ""
+
+    for event in actual_events:
+        note = f", observed {event.observed}" if event.is_shifted else ""
         region = f" [{event.region}]" if event.region else ""
-        free = "free" if event.free else "worked"
-        print(f"{d}: {event.name} ({free}{observed}){region}")
+        free = "free" if event.is_free_on(d) else "worked"
+        print(f"{d}: {event.name} ({free}{note}){region}")
+    for event in shifted_in:
+        region = f" [{event.region}]" if event.region else ""
+        free = "free" if event.is_free_on(d) else "worked"
+        print(f"{d}: {event.name} observed ({free}, actual date {event.date}){region}")
     return 0
 
 

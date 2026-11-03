@@ -36,6 +36,35 @@ def test_show(capsys):
     assert main(["show", "2024-07-15", "France"]) == 1
 
 
+def test_show_observed_day(tmp_path, capsys):
+    (tmp_path / "date_Testland.json").write_text(
+        """{
+          "Country": "Testland",
+          "Culture": "en-US",
+          "Periods": [
+            {
+              "Name": "National Day",
+              "RuleDate": "7-4",
+              "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+              "Free": true
+            }
+          ]
+        }""",
+        encoding="utf-8",
+    )
+    capsys.readouterr()
+
+    # 4 July 2021 (Sunday): festivity present but not the day off
+    assert main(["show", "2021-07-04", "Testland", "--data", str(tmp_path)]) == 0
+    out = capsys.readouterr().out
+    assert "National Day (worked, observed 2021-07-05)" in out
+
+    # 5 July 2021 (Monday): the observed, non-worked day
+    assert main(["show", "2021-07-05", "Testland", "--data", str(tmp_path)]) == 0
+    out = capsys.readouterr().out
+    assert "National Day observed (free, actual date 2021-07-04)" in out
+
+
 def test_functions(capsys):
     assert main(["functions"]) == 0
     out = capsys.readouterr().out

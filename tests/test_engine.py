@@ -134,29 +134,95 @@ def test_unknown_country_and_region(cal):
         cal.get_dates(2021, "France", region="99")
 
 
-def test_observed_keying():
-    configuration = CountryConfiguration(
-        country="Testland",
-        culture="en-US",
-        periods=[
-            Period(
-                name="National Day",
-                rule_date="7-4",
-                rule_observed="? (SATURDAY | SUNDAY) : >> MONDAY",
-                free=True,
+def _testland() -> Calendarium:
+    return Calendarium(
+        [
+            CountryConfiguration(
+                country="Testland",
+                culture="en-US",
+                periods=[
+                    Period(
+                        name="National Day",
+                        rule_date="7-4",
+                        rule_observed="? (SATURDAY | SUNDAY) : >> MONDAY",
+                        free=True,
+                    ),
+                    Period(
+                        name="Year End",
+                        rule_date="12-31",
+                        rule_observed="? (SATURDAY | SUNDAY) : >> MONDAY",
+                        free=True,
+                    ),
+                ],
             )
-        ],
+        ]
     )
-    cal = Calendarium([configuration])
+
+
+def test_observed_keying():
+    cal = _testland()
 
     # 4 July 2021 is a Sunday -> observed Monday 5 July
     by_date = cal.get_dates(2021, "Testland")
-    event = by_date[date(2021, 7, 4)].events[0]
+    event = next(e for e in by_date[date(2021, 7, 4)].events if e.name == "National Day")
     assert event.observed == date(2021, 7, 5)
     assert event.is_shifted
 
     by_observed = cal.get_dates(2021, "Testland", key="observed")
-    assert list(by_observed) == [date(2021, 7, 5)]
+    assert date(2021, 7, 5) in by_observed
+    assert date(2021, 7, 4) not in by_observed
+
+
+def test_free_follows_observed_date():
+    """Decided rule: the non-working day of a free festivity is its observed date."""
+    cal = _testland()
+
+    # 4 July 2021 (Sunday) is observed Monday 5 July
+    assert not cal.is_free(date(2021, 7, 4), "Testland")
+    assert cal.is_free(date(2021, 7, 5), "Testland")
+
+    # the actual date keeps the festivity but is not a day off
+    by_date = cal.get_dates(2021, "Testland")
+    assert not by_date[date(2021, 7, 4)].free
+    event = next(e for e in by_date[date(2021, 7, 4)].events if e.name == "National Day")
+    assert event.free  # the festivity still grants a day off...
+    assert not event.is_free_on(date(2021, 7, 4))  # ...but not on its actual date
+    assert event.is_free_on(date(2021, 7, 5))
+
+    # the observed index reports the day as free
+    by_observed = cal.get_dates(2021, "Testland", key="observed")
+    assert by_observed[date(2021, 7, 5)].free
+
+    # 4 July 2022 is a Monday: nothing shifts, both views agree
+    assert cal.is_free(date(2022, 7, 4), "Testland")
+    assert cal.get_dates(2022, "Testland")[date(2022, 7, 4)].free
+
+
+def test_free_unshifted_event_unchanged():
+    cal = Calendarium.bundled()
+    # France has no observed rules: actual date == observed date == free day
+    assert cal.is_free(date(2021, 7, 14), "France")
+    assert cal.get_dates(2021, "France")[date(2021, 7, 14)].free
+
+
+def test_observed_shift_across_year_boundary():
+    cal = _testland()
+
+    # 31 December 2022 is a Saturday -> observed Monday 2 January 2023
+    assert not cal.is_free(date(2022, 12, 31), "Testland")
+    assert cal.is_free(date(2023, 1, 2), "Testland")
+
+    by_observed_2023 = cal.get_dates(2023, "Testland", key="observed")
+    event = next(e for e in by_observed_2023[date(2023, 1, 2)].events if e.name == "Year End")
+    assert event.date == date(2022, 12, 31)
+
+    # the shifted-away observance does not appear in the 2022 observed index
+    by_observed_2022 = cal.get_dates(2022, "Testland", key="observed")
+    assert date(2022, 12, 31) not in by_observed_2022
+
+    # get_date also resolves the observed day across the boundary
+    identified = cal.get_date(date(2023, 1, 2), "Testland", key="observed")
+    assert identified is not None and identified.free
 
 
 def test_year_bounds_inclusive():

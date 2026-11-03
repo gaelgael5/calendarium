@@ -128,6 +128,10 @@ class EventDate:
     date it is observed when a ``RuleObserved`` shifts it (for instance a
     holiday falling on a weekend observed the following Monday).  When no
     rule applies, ``observed == date``.
+
+    ``free`` qualifies the festivity; the day actually non-worked is the
+    **observed** date.  When the observance is shifted, the actual date keeps
+    the identity of the festivity but does not count as a day off.
     """
 
     name: str
@@ -146,6 +150,13 @@ class EventDate:
     def is_shifted(self) -> bool:
         """True when the observed date differs from the actual date."""
         return self.observed != self.date
+
+    def is_free_on(self, d: date) -> bool:
+        """True when this event makes ``d`` a non-working day.
+
+        A free festivity is non-worked on its observed date only.
+        """
+        return self.free and self.observed == d
 
     def translation(self, language: str) -> Optional[str]:
         for t in self.translations:
@@ -166,8 +177,12 @@ class IdentifiedDate:
 
     @property
     def free(self) -> bool:
-        """True when at least one event makes the day a non-working day."""
-        return any(e.free for e in self.events)
+        """True when at least one event makes this day a non-working day.
+
+        Follows the observed-date rule: a free festivity whose observance is
+        shifted away from this date does not make this date free.
+        """
+        return any(e.is_free_on(self.date) for e in self.events)
 
     def merge(self, other: "IdentifiedDate") -> None:
         known = {e._identity() for e in self.events}

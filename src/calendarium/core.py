@@ -181,9 +181,12 @@ class Calendarium:
         ``region`` selects a region rule set (region rules include the
         country-level ones).  ``key`` selects the index: ``"date"`` (actual
         festivity date, default) or ``"observed"`` (date the festivity is
-        observed).
+        observed -- the non-working day for free festivities).
         """
-        return self._keyed(self._build(year, country, region), key)
+        self._check_key(key)
+        if key == "observed":
+            return self._observed(year, country, region)
+        return self._build(year, country, region)
 
     def get_all_dates(
         self,
@@ -192,30 +195,34 @@ class Calendarium:
         key: str = "date",
     ) -> Dict[date, IdentifiedDate]:
         """Identified dates of a year with every region of the country merged."""
+        self._check_key(key)
         merged: Dict[date, IdentifiedDate] = {}
         for _, region in self._keys(country):
-            for d, identified in self._build(year, country, region).items():
+            for d, identified in self.get_dates(year, country, region, key).items():
                 if d in merged:
                     merged[d].merge(identified)
                 else:
                     merged[d] = identified.clone()
-        return self._keyed(merged, key)
+        return dict(sorted(merged.items()))
 
     def get_date(
         self,
         d: date,
         country: str,
         region: Optional[str] = None,
+        key: str = "date",
     ) -> Optional[IdentifiedDate]:
         """Festivities on one date, or ``None``.
 
         With ``region=None`` every region of the country is searched.
+        ``key="observed"`` looks the date up as an observed day instead of an
+        actual festivity date.
         """
-        if region is not None:
-            return self._build(d.year, country, region).get(d)
+        self._check_key(key)
+        regions = [region] if region is not None else [r for _, r in self._keys(country)]
         result: Optional[IdentifiedDate] = None
-        for _, reg in self._keys(country):
-            identified = self._build(d.year, country, reg).get(d)
+        for reg in regions:
+            identified = self.get_dates(d.year, country, reg, key).get(d)
             if identified is not None:
                 if result is None:
                     result = identified.clone()
@@ -224,8 +231,13 @@ class Calendarium:
         return result
 
     def is_free(self, d: date, country: str, region: str = "") -> bool:
-        """True when the date is a non-working day (``Free``) for the country."""
-        identified = self._build(d.year, country, region).get(d)
+        """True when the date is a non-working day for the country.
+
+        Follows the observed-date rule: a free festivity counts on its
+        observed date (which is its actual date when nothing shifts it).
+        Weekends themselves are not modelled here.
+        """
+        identified = self._observed(d.year, country, region).get(d)
         return identified.free if identified else False
 
     def get_next_dates(
@@ -260,21 +272,28 @@ class Calendarium:
         return sorted(keys)
 
     @staticmethod
-    def _keyed(
-        dates: Dict[date, IdentifiedDate], key: str
-    ) -> Dict[date, IdentifiedDate]:
-        if key == "date":
-            return dict(sorted(dates.items()))
-        if key != "observed":
+    def _check_key(key: str) -> None:
+        if key not in ("date", "observed"):
             raise ValueError(f"key must be 'date' or 'observed', got {key!r}")
-        rekeyed: Dict[date, IdentifiedDate] = {}
-        for identified in dates.values():
-            for event in identified.events:
-                target = rekeyed.setdefault(
-                    event.observed, IdentifiedDate(date=event.observed)
-                )
-                target.events.append(event)
-        return dict(sorted(rekeyed.items()))
+
+    def _observed(self, year: int, country: str, region: str) -> Dict[date, IdentifiedDate]:
+        """Events of a year indexed by observed date.
+
+        An observed rule can shift a festivity into the next year (e.g. a
+        31 December holiday observed the following Monday), so the adjacent
+        years are scanned and the result is clipped to observed dates of
+        ``year``.
+        """
+        result: Dict[date, IdentifiedDate] = {}
+        for source_year in (year - 1, year, year + 1):
+            for identified in self._build(source_year, country, region).values():
+                for event in identified.events:
+                    if event.observed.year == year:
+                        target = result.setdefault(
+                            event.observed, IdentifiedDate(date=event.observed)
+                        )
+                        target.events.append(event)
+        return dict(sorted(result.items()))
 
     def _build(self, year: int, country: str, region: str) -> Dict[date, IdentifiedDate]:
         rules = self._rules.get((country, region or ""))

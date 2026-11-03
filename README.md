@@ -204,17 +204,30 @@ Each computed event carries both dates:
 * `event.date` — the actual (legal) date of the festivity;
 * `event.observed` — the date it is observed (`RuleObserved`), equal to
   `event.date` when no rule applies;
-* `event.free` — whether the day is non-worked;
+* `event.free` — whether the festivity grants a non-working day;
 * `event.is_shifted` — `True` when the two differ.
 
-`get_dates(..., key="observed")` indexes the result by observed date instead
-of actual date.
+**Rule: the non-working day of a free festivity is its observed date.**
+When nothing shifts the observance, observed and actual dates are the same
+day and the distinction is invisible. When a `RuleObserved` shifts it (a
+holiday falling on a weekend observed the following Monday), the actual date
+keeps the identity of the festivity — name, translations, tags — but the day
+off is the observed date. This matches the referential's documented intent
+("the observed date is the free day") and the legal practice of the
+countries using such rules.
 
-> **Open point (roadmap):** the semantics around observed days deserve a
-> review — in particular whether `Free` should apply to the actual date, the
-> observed date, or both, and how regional observance differences should be
-> modelled. The current behaviour reproduces the original project: `Free` is
-> a property of the event, and both dates are exposed to the caller.
+Concretely:
+
+* `event.is_free_on(d)` — `True` only when `d` is the event's observed date
+  and the festivity is free;
+* `identified.free` and `Calendarium.is_free(d, country)` follow the same
+  rule (a festivity shifted away from `d` does not make `d` free);
+* `get_dates(..., key="observed")` / `get_date(..., key="observed")` index
+  events by observed day, including observances shifted in from an adjacent
+  year (a 31 December holiday observed the following Monday appears in
+  January of the next year);
+* weekends themselves are not modelled: `is_free` only reflects
+  festivity-driven days off.
 
 ## Data tiers
 
