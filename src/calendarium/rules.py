@@ -159,6 +159,39 @@ def _deepavali(year: int) -> List[date]:
     return [date(year, month, day)]
 
 
+#: Thai Buddhist holidays follow the Thai lunar calendar (whose month
+#: numbering and intercalation differ from the Chinese calendar) and are
+#: gazetted by the Cabinet; the official dates are tabulated.
+_THAI_BUCHA = {
+    "MAKHA_BUCHA": {
+        2020: (2, 8), 2021: (2, 26), 2022: (2, 16), 2023: (3, 6),
+        2024: (2, 24), 2025: (2, 12), 2026: (3, 3),
+    },
+    "VISAKHA_BUCHA": {
+        2020: (5, 6), 2021: (5, 26), 2022: (5, 15), 2023: (6, 3),
+        2024: (5, 22), 2025: (5, 11), 2026: (5, 31),
+    },
+    "ASARNHA_BUCHA": {
+        2020: (7, 5), 2021: (7, 24), 2022: (7, 13), 2023: (8, 1),
+        2024: (7, 20), 2025: (7, 10), 2026: (7, 29),
+    },
+}
+
+
+def _thai_bucha(name: str) -> Callable[[int], List[date]]:
+    table = _THAI_BUCHA[name]
+
+    def compute(year: int) -> List[date]:
+        if year not in table:
+            raise ValueError(
+                f"{name} gazetted table covers {min(table)}-{max(table)}"
+            )
+        month, day = table[year]
+        return [date(year, month, day)]
+
+    return compute
+
+
 _FUNCTIONS: dict[str, Callable[[int], List[date]]] = {
     "EASTER": lambda year: [easter_date(year)],
     "ORTHODOX_EASTER": lambda year: [orthodox_easter_date(year)],
@@ -173,6 +206,9 @@ _FUNCTIONS: dict[str, Callable[[int], List[date]]] = {
     "QINGMING": _qingming,
     "DONGZHI": _dongzhi,
     "DEEPAVALI": _deepavali,
+    "MAKHA_BUCHA": _thai_bucha("MAKHA_BUCHA"),
+    "VISAKHA_BUCHA": _thai_bucha("VISAKHA_BUCHA"),
+    "ASARNHA_BUCHA": _thai_bucha("ASARNHA_BUCHA"),
 }
 
 

@@ -215,6 +215,7 @@ Available in any rule as `[NAME]`:
 | `[QINGMING]` | Qingming festival — solar term at 15° (UTC+8) |
 | `[DONGZHI]` | East Asian winter solstice festival (UTC+8) |
 | `[DEEPAVALI]` | Gazetted Deepavali dates (2020–2026) |
+| `[MAKHA_BUCHA]` / `[VISAKHA_BUCHA]` / `[ASARNHA_BUCHA]` | Thai Buddhist holidays, gazetted dates (2020–2026) |
 
 The registry is extensible:
 
@@ -283,12 +284,12 @@ Concretely:
 
 ## Data tiers
 
-* `data/countries/` — verified configurations (109 countries). Each was
+* `data/countries/` — verified configurations (110 countries). Each was
   reviewed against its official holiday list, with substitute-day and
   moving rules encoded (see the per-country git history), and is pinned by
   a golden snapshot in `tests/golden/`.
-* `data/countries/not_checked/` — the remaining unverified configurations
-  (Syria and Thailand), each blocked for a documented reason — see
+* `data/countries/not_checked/` — the remaining unverified configuration
+  (Syria), blocked for a documented reason — see
   [`not_checked/README.md`](src/calendarium/data/countries/not_checked/README.md).
   Load them with `Calendarium.bundled(include_not_checked=True)` or the
   CLI flag `--all`.
