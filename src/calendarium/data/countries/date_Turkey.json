@@ -1,0 +1,167 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Turkey",
+  "Culture": "tr-TR",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "English",
+          "Name": "New Year's Day"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "National Sovereignty and Children's Day",
+      "RuleDate": "4-23",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour and Solidarity Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Ataturk Commemoration and Youth Day",
+      "RuleDate": "5-19",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Democracy and National Unity Day",
+      "RuleDate": "7-15",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "public holiday since 2017"
+      ],
+      "YearStart": 2017
+    },
+    {
+      "Name": "Victory Day",
+      "RuleDate": "8-30",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Republic Day Eve",
+      "RuleDate": "10-28",
+      "Free": false,
+      "Translations": [],
+      "Tags": [
+        "half day from 13:00"
+      ]
+    },
+    {
+      "Name": "Republic Day",
+      "RuleDate": "10-29",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Ramadan Feast Eve",
+      "RuleDate": "9-29",
+      "Free": false,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "arife, half day",
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Ramadan Feast",
+      "RuleDate": "10-1",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Ramadan Feast 2nd Day",
+      "RuleDate": "10-2",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Ramadan Feast 3rd Day",
+      "RuleDate": "10-3",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Sacrifice Feast Eve",
+      "RuleDate": "12-9",
+      "Free": false,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "arife, half day",
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Sacrifice Feast",
+      "RuleDate": "12-10",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Sacrifice Feast 2nd Day",
+      "RuleDate": "12-11",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Sacrifice Feast 3rd Day",
+      "RuleDate": "12-12",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Sacrifice Feast 4th Day",
+      "RuleDate": "12-13",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    }
+  ]
+}
