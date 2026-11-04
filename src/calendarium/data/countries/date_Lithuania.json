@@ -1,0 +1,208 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Lithuania",
+  "Culture": "lt-LT",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Naujieji metai"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "State Restoration Day",
+      "RuleDate": "2-16",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Valstybės atkūrimo diena"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Restoration Day",
+      "RuleDate": "3-11",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Nepriklausomybės atkūrimo diena"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Sunday",
+      "RuleDate": "[EASTER]",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Velykos"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([EASTER]) + 1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Antroji Velykų diena"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Darbo diena"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Mother's Day",
+      "RuleDate": "(5-1) >> SUNDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Motinos diena"
+        }
+      ],
+      "Tags": [
+        "first Sunday of May"
+      ]
+    },
+    {
+      "Name": "Father's Day",
+      "RuleDate": "(6-1) >> SUNDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Tėvo diena"
+        }
+      ],
+      "Tags": [
+        "first Sunday of June"
+      ]
+    },
+    {
+      "Name": "St. John's Day",
+      "RuleDate": "6-24",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Joninės"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Statehood Day",
+      "RuleDate": "7-6",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Valstybės diena"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Assumption",
+      "RuleDate": "8-15",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Žolinė"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "All Saints' Day",
+      "RuleDate": "11-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Visų šventųjų diena"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "All Souls' Day",
+      "RuleDate": "11-2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Vėlinės"
+        }
+      ],
+      "Tags": [
+        "public holiday since 2020"
+      ],
+      "YearStart": 2020
+    },
+    {
+      "Name": "Christmas Eve",
+      "RuleDate": "12-24",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Kūčios"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Kalėdos"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas 2nd Day",
+      "RuleDate": "12-26",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Lithuanian",
+          "Name": "Antroji Kalėdų diena"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}
