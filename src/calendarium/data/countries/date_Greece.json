@@ -1,0 +1,109 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Greece",
+  "Culture": "el-GR",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "English",
+          "Name": "New Year's Day"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Epiphany",
+      "RuleDate": "1-6",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Clean Monday",
+      "RuleDate": "([ORTHODOX_EASTER]) - 48",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "start of Great Lent"
+      ]
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "3-25",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([ORTHODOX_EASTER]) - 2",
+      "Free": false,
+      "Translations": [],
+      "Tags": [
+        "shops close from 13:00; day off in many sectors"
+      ]
+    },
+    {
+      "Name": "Easter Sunday",
+      "RuleDate": "[ORTHODOX_EASTER]",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([ORTHODOX_EASTER]) + 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Whit Monday",
+      "RuleDate": "([ORTHODOX_EASTER]) + 50",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Assumption",
+      "RuleDate": "8-15",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Ochi Day",
+      "RuleDate": "10-28",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Synaxis of the Mother of God",
+      "RuleDate": "12-26",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}
