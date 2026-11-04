@@ -1,0 +1,41 @@
+# Calendarium golden snapshot -- human-reviewed reference output
+# country: South_Africa
+# years: 2024,2025,2026
+# regenerate: python scripts/update_golden.py South_Africa
+date;name;observed;free;regions
+2024-01-01;New Year's Day;2024-01-01;true;
+2024-03-21;Human Rights Day;2024-03-21;true;
+2024-03-29;Good Friday;2024-03-29;true;
+2024-04-01;Family Day;2024-04-01;true;
+2024-04-27;Freedom Day;2024-04-27;true;
+2024-05-01;Workers' Day;2024-05-01;true;
+2024-06-16;Youth Day;2024-06-17;true;
+2024-08-09;National Women's Day;2024-08-09;true;
+2024-09-24;Heritage Day;2024-09-24;true;
+2024-12-16;Day of Reconciliation;2024-12-16;true;
+2024-12-25;Christmas Day;2024-12-25;true;
+2024-12-26;Day of Goodwill;2024-12-26;true;
+2025-01-01;New Year's Day;2025-01-01;true;
+2025-03-21;Human Rights Day;2025-03-21;true;
+2025-04-18;Good Friday;2025-04-18;true;
+2025-04-21;Family Day;2025-04-21;true;
+2025-04-27;Freedom Day;2025-04-28;true;
+2025-05-01;Workers' Day;2025-05-01;true;
+2025-06-16;Youth Day;2025-06-16;true;
+2025-08-09;National Women's Day;2025-08-09;true;
+2025-09-24;Heritage Day;2025-09-24;true;
+2025-12-16;Day of Reconciliation;2025-12-16;true;
+2025-12-25;Christmas Day;2025-12-25;true;
+2025-12-26;Day of Goodwill;2025-12-26;true;
+2026-01-01;New Year's Day;2026-01-01;true;
+2026-03-21;Human Rights Day;2026-03-21;true;
+2026-04-03;Good Friday;2026-04-03;true;
+2026-04-06;Family Day;2026-04-06;true;
+2026-04-27;Freedom Day;2026-04-27;true;
+2026-05-01;Workers' Day;2026-05-01;true;
+2026-06-16;Youth Day;2026-06-16;true;
+2026-08-09;National Women's Day;2026-08-10;true;
+2026-09-24;Heritage Day;2026-09-24;true;
+2026-12-16;Day of Reconciliation;2026-12-16;true;
+2026-12-25;Christmas Day;2026-12-25;true;
+2026-12-26;Day of Goodwill;2026-12-26;true;
