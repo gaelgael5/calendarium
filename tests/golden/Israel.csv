@@ -1,0 +1,32 @@
+# Calendarium golden snapshot -- human-reviewed reference output
+# country: Israel
+# years: 2024,2025,2026
+# regenerate: python scripts/update_golden.py Israel
+date;name;observed;free;regions
+2024-04-23;Passover;2024-04-23;true;
+2024-04-29;Seventh Day of Passover;2024-04-29;true;
+2024-05-13;Independence Day;2024-05-14;true;
+2024-06-12;Shavuot;2024-06-12;true;
+2024-10-03;Rosh Hashanah;2024-10-03;true;
+2024-10-04;Rosh Hashanah 2nd Day;2024-10-04;true;
+2024-10-12;Yom Kippur;2024-10-12;true;
+2024-10-17;Sukkot;2024-10-17;true;
+2024-10-24;Shemini Atzeret - Simchat Torah;2024-10-24;true;
+2025-04-13;Passover;2025-04-13;true;
+2025-04-19;Seventh Day of Passover;2025-04-19;true;
+2025-05-03;Independence Day;2025-05-01;true;
+2025-06-02;Shavuot;2025-06-02;true;
+2025-09-23;Rosh Hashanah;2025-09-23;true;
+2025-09-24;Rosh Hashanah 2nd Day;2025-09-24;true;
+2025-10-02;Yom Kippur;2025-10-02;true;
+2025-10-07;Sukkot;2025-10-07;true;
+2025-10-14;Shemini Atzeret - Simchat Torah;2025-10-14;true;
+2026-04-02;Passover;2026-04-02;true;
+2026-04-08;Seventh Day of Passover;2026-04-08;true;
+2026-04-22;Independence Day;2026-04-22;true;
+2026-05-22;Shavuot;2026-05-22;true;
+2026-09-12;Rosh Hashanah;2026-09-12;true;
+2026-09-13;Rosh Hashanah 2nd Day;2026-09-13;true;
+2026-09-21;Yom Kippur;2026-09-21;true;
+2026-09-26;Sukkot;2026-09-26;true;
+2026-10-03;Shemini Atzeret - Simchat Torah;2026-10-03;true;
