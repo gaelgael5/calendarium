@@ -1,0 +1,175 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Brazil",
+  "Culture": "pt-BR",
+  "Calendar": "Gregorian",
+  "Url": "https://www.gov.br/",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Confraternização Universal"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Carnival Monday",
+      "RuleDate": "([EASTER]) - 48",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Carnaval"
+        }
+      ],
+      "Tags": [
+        "ponto facultativo; holiday in several states"
+      ]
+    },
+    {
+      "Name": "Carnival Tuesday",
+      "RuleDate": "([EASTER]) - 47",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Carnaval"
+        }
+      ],
+      "Tags": [
+        "ponto facultativo; holiday in several states"
+      ]
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Sexta-feira Santa"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Tiradentes",
+      "RuleDate": "4-21",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Tiradentes"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Dia do Trabalhador"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Corpus Christi",
+      "RuleDate": "([EASTER]) + 60",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Corpus Christi"
+        }
+      ],
+      "Tags": [
+        "ponto facultativo; holiday in many cities"
+      ]
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "9-7",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Independência do Brasil"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Our Lady of Aparecida",
+      "RuleDate": "10-12",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Nossa Senhora Aparecida"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "All Souls' Day",
+      "RuleDate": "11-2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Finados"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Republic Proclamation Day",
+      "RuleDate": "11-15",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Proclamação da República"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Black Consciousness Day",
+      "RuleDate": "11-20",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Dia da Consciência Negra"
+        }
+      ],
+      "Tags": [
+        "national holiday since 2024"
+      ],
+      "YearStart": 2024
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Natal"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}
