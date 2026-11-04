@@ -1,0 +1,182 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Norway",
+  "Culture": "nb-NO",
+  "Calendar": "Gregorian",
+  "Url": "https://lovdata.no/dokument/NL/lov/1995-02-24-12",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Norwgian",
+          "Name": "Første nyttårsdag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Maundy Thursday",
+      "RuleDate": "([EASTER]) - 3",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Norwgian",
+          "Name": "Skjærtorsdag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Norwgian",
+          "Name": "Langfredag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Sunday",
+      "RuleDate": "[EASTER]",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Norwgian",
+          "Name": "Første påskedag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([EASTER]) + 1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Norwgian",
+          "Name": "Andre påskedag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Norwgian",
+          "Name": "Arbeidernes dag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Constitution Day",
+      "RuleDate": "5-17",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Norwgian",
+          "Name": "Grunnlovsdagen"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Ascension",
+      "RuleDate": "([EASTER]) + 39",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Norwgian",
+          "Name": "Kristi himmelfartsdag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Whit Sunday",
+      "RuleDate": "([EASTER]) + 49",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Norwgian",
+          "Name": "Første pinsedag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Whit Monday",
+      "RuleDate": "([EASTER]) + 50",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Norwgian",
+          "Name": "Andre pinsedag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Eve",
+      "RuleDate": "12-24",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Norwgian",
+          "Name": "Julaften"
+        }
+      ],
+      "Tags": [
+        "not statutory; half day in many sectors"
+      ]
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Norwgian",
+          "Name": "Første juledag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas 2nd Day",
+      "RuleDate": "12-26",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Norwgian",
+          "Name": "Andre juledag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "New Year's Eve",
+      "RuleDate": "12-31",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Norwgian",
+          "Name": "Nyttårsaften"
+        }
+      ],
+      "Tags": [
+        "not statutory; half day in many sectors"
+      ]
+    }
+  ]
+}
