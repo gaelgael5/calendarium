@@ -49,7 +49,7 @@ from .rules import (
 )
 from .toc import DEFAULT_TOC_FULL_URL, DEFAULT_TOC_URL, Toc, TocEntry, load_toc
 
-__version__ = "0.3.0"
+__version__ = "0.4.0"
 
 __all__ = [
     "Calendarium",

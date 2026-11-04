@@ -100,6 +100,7 @@ South_Africa;en-ZA;date_South_Africa.json
 Spain;es-ES;date_Spain.json
 Sweden;sv-SE;date_Sweden.json
 Switzerland;de-CH;date_Switzerland.json
+Syria;ar-SY;date_Syria.json
 Thailand;th-TH;date_Thailand.json
 Trinidad_and_Tobago;en-TT;date_Trinidad_and_Tobago.json
 Tunisia;ar-TN;date_Tunisia.json
