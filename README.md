@@ -290,15 +290,13 @@ Concretely:
 
 ## Data tiers
 
-* `data/countries/` — verified configurations (110 countries). Each was
-  reviewed against its official holiday list, with substitute-day and
-  moving rules encoded (see the per-country git history), and is pinned by
-  a golden snapshot in `tests/golden/`.
-* `data/countries/not_checked/` — the remaining unverified configuration
-  (Syria), blocked for a documented reason — see
-  [`not_checked/README.md`](src/calendarium/data/countries/not_checked/README.md).
-  Load them with `Calendarium.bundled(include_not_checked=True)` or the
-  CLI flag `--all`.
+* `data/countries/` — verified configurations (111 countries — the whole
+  referential). Each was reviewed against its official holiday list, with
+  substitute-day and moving rules encoded (see the per-country git
+  history), and is pinned by a golden snapshot in `tests/golden/`.
+* `data/countries/not_checked/` — staging area for new, not yet verified
+  configurations (currently empty); they load only with
+  `Calendarium.bundled(include_not_checked=True)` or the CLI flag `--all`.
 
 Dates on the tabular Islamic calendar are tagged in the files: countries
 following actual moon sighting can differ by one day.

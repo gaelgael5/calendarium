@@ -100,6 +100,7 @@ South_Africa;en-ZA;https://raw.githubusercontent.com/gaelgael5/calendarium/main/
 Spain;es-ES;https://raw.githubusercontent.com/gaelgael5/calendarium/main/src/calendarium/data/countries/date_Spain.json
 Sweden;sv-SE;https://raw.githubusercontent.com/gaelgael5/calendarium/main/src/calendarium/data/countries/date_Sweden.json
 Switzerland;de-CH;https://raw.githubusercontent.com/gaelgael5/calendarium/main/src/calendarium/data/countries/date_Switzerland.json
+Syria;ar-SY;https://raw.githubusercontent.com/gaelgael5/calendarium/main/src/calendarium/data/countries/date_Syria.json
 Thailand;th-TH;https://raw.githubusercontent.com/gaelgael5/calendarium/main/src/calendarium/data/countries/date_Thailand.json
 Trinidad_and_Tobago;en-TT;https://raw.githubusercontent.com/gaelgael5/calendarium/main/src/calendarium/data/countries/date_Trinidad_and_Tobago.json
 Tunisia;ar-TN;https://raw.githubusercontent.com/gaelgael5/calendarium/main/src/calendarium/data/countries/date_Tunisia.json

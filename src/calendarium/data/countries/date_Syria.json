@@ -1,0 +1,221 @@
+// Verified against Presidential Decree 188 of 2025 (as reported
+// concordantly by CNN Arabic, Syria TV and Al Jazeera Mubasher,
+// October 2025) and Decree 13 of 2026 (Newroz). Eid al-Fitr is three
+// days, Eid al-Adha four days from 10 Dhu al-Hijjah; each Easter is a
+// single day. The public-sector weekend is Friday-Saturday and there
+// is no substitution rule; multi-day closures are announced ad hoc by
+// the Presidency and are not encoded. Baath-era holidays are closed
+// with YearEnd 2024.
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Syria",
+  "Culture": "ar-SY",
+  "Calendar": "Gregorian",
+  "Url": "https://www.sana.sy/",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Revolution Day",
+      "RuleDate": "3-8",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "Baath era; abolished by Decree 188/2025"
+      ],
+      "YearEnd": 2024
+    },
+    {
+      "Name": "Revolution Day",
+      "RuleDate": "3-18",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "added by Decree 188/2025; first observed 2026"
+      ],
+      "YearStart": 2026
+    },
+    {
+      "Name": "Mother's Day",
+      "RuleDate": "3-21",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Newroz",
+      "RuleDate": "3-21",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "added by Decree 13/2026"
+      ],
+      "YearStart": 2026
+    },
+    {
+      "Name": "Western Easter",
+      "RuleDate": "[EASTER]",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "one day, Decree 188/2025"
+      ]
+    },
+    {
+      "Name": "Orthodox Easter",
+      "RuleDate": "[ORTHODOX_EASTER]",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "one day, Decree 188/2025"
+      ]
+    },
+    {
+      "Name": "Evacuation Day",
+      "RuleDate": "4-17",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Martyrs' Day",
+      "RuleDate": "5-6",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "abolished by Decree 188/2025"
+      ],
+      "YearEnd": 2024
+    },
+    {
+      "Name": "October Liberation War Day",
+      "RuleDate": "10-6",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "abolished by Decree 188/2025"
+      ],
+      "YearEnd": 2024
+    },
+    {
+      "Name": "Liberation Day",
+      "RuleDate": "12-8",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "fall of the Assad government; added by Decree 188/2025"
+      ],
+      "YearStart": 2025
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Islamic New Year",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; Syria follows sighting, may differ by one day"
+      ]
+    },
+    {
+      "Name": "Prophet's Birthday",
+      "RuleDate": "3-12",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; Syria follows sighting, may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Fitr",
+      "RuleDate": "10-1",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; Syria follows sighting, may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Fitr 2nd Day",
+      "RuleDate": "10-2",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; Syria follows sighting, may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Fitr 3rd Day",
+      "RuleDate": "10-3",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; Syria follows sighting, may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Adha",
+      "RuleDate": "12-10",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; Syria follows sighting, may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Adha 2nd Day",
+      "RuleDate": "12-11",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; Syria follows sighting, may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Adha 3rd Day",
+      "RuleDate": "12-12",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; Syria follows sighting, may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Adha 4th Day",
+      "RuleDate": "12-13",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; Syria follows sighting, may differ by one day"
+      ]
+    }
+  ]
+}

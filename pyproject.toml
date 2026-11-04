@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "black-beard-calendarium"
-version = "0.3.0"
+version = "0.4.0"
 description = "Referential of computed dates (public holidays and observances) driven by per-country JSON rule files."
 readme = "README.md"
 license = { file = "LICENSE" }
