@@ -1,0 +1,208 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Uruguay",
+  "Culture": "es-UY",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Año Nuevo"
+        }
+      ],
+      "Tags": [
+        "feriado no laborable pago"
+      ]
+    },
+    {
+      "Name": "Epiphany",
+      "RuleDate": "1-6",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de los Niños"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Carnival Monday",
+      "RuleDate": "([EASTER]) - 48",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Carnaval"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Carnival Tuesday",
+      "RuleDate": "([EASTER]) - 47",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Carnaval"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Tourism Week Thursday",
+      "RuleDate": "([EASTER]) - 3",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Semana de Turismo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Tourism Week Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Semana de Turismo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Landing of the 33 Patriots",
+      "RuleDate": "4-19",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY) : << MONDAY ; ? (THURSDAY | FRIDAY | SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Desembarco de los 33 Orientales"
+        }
+      ],
+      "Tags": [
+        "trasladable"
+      ]
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de los Trabajadores"
+        }
+      ],
+      "Tags": [
+        "feriado no laborable pago"
+      ]
+    },
+    {
+      "Name": "Battle of Las Piedras",
+      "RuleDate": "5-18",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY) : << MONDAY ; ? (THURSDAY | FRIDAY | SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Batalla de Las Piedras"
+        }
+      ],
+      "Tags": [
+        "trasladable"
+      ]
+    },
+    {
+      "Name": "Artigas' Birthday",
+      "RuleDate": "6-19",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Natalicio de Artigas"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Constitution Day",
+      "RuleDate": "7-18",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Jura de la Constitución"
+        }
+      ],
+      "Tags": [
+        "feriado no laborable pago"
+      ]
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "8-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Declaratoria de la Independencia"
+        }
+      ],
+      "Tags": [
+        "feriado no laborable pago"
+      ]
+    },
+    {
+      "Name": "Race Day",
+      "RuleDate": "10-12",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY) : << MONDAY ; ? (THURSDAY | FRIDAY | SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Raza"
+        }
+      ],
+      "Tags": [
+        "trasladable"
+      ]
+    },
+    {
+      "Name": "All Souls' Day",
+      "RuleDate": "11-2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de los Difuntos"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Navidad"
+        }
+      ],
+      "Tags": [
+        "feriado no laborable pago"
+      ]
+    }
+  ]
+}
