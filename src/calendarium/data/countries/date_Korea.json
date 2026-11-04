@@ -1,0 +1,140 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Korea",
+  "Culture": "ko-KR",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Seollal Eve",
+      "RuleDate": "(1-1) - 1",
+      "RuleObserved": "? SUNDAY : + 3",
+      "Free": true,
+      "Calendar": "KoreanLunisolar",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Seollal",
+      "RuleDate": "1-1",
+      "RuleObserved": "? SUNDAY : + 2",
+      "Free": true,
+      "Calendar": "KoreanLunisolar",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Seollal 2nd Day",
+      "RuleDate": "1-2",
+      "RuleObserved": "? SUNDAY : + 1",
+      "Free": true,
+      "Calendar": "KoreanLunisolar",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Movement Day",
+      "RuleDate": "3-1",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Buddha's Birthday",
+      "RuleDate": "4-8",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Calendar": "KoreanLunisolar",
+      "Translations": [],
+      "Tags": [
+        "substitute day since 2023"
+      ]
+    },
+    {
+      "Name": "Children's Day",
+      "RuleDate": "5-5",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Memorial Day",
+      "RuleDate": "6-6",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "no substitute day"
+      ]
+    },
+    {
+      "Name": "Liberation Day",
+      "RuleDate": "8-15",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Chuseok Eve",
+      "RuleDate": "8-14",
+      "RuleObserved": "? SUNDAY : + 3",
+      "Free": true,
+      "Calendar": "KoreanLunisolar",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Chuseok",
+      "RuleDate": "8-15",
+      "RuleObserved": "? SUNDAY : + 2",
+      "Free": true,
+      "Calendar": "KoreanLunisolar",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Chuseok 2nd Day",
+      "RuleDate": "8-16",
+      "RuleObserved": "? SUNDAY : + 1",
+      "Free": true,
+      "Calendar": "KoreanLunisolar",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "National Foundation Day",
+      "RuleDate": "10-3",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Hangul Day",
+      "RuleDate": "10-9",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "substitute day since 2023"
+      ]
+    }
+  ]
+}
