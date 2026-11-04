@@ -129,6 +129,36 @@ def _june_solstice_chile(year: int) -> List[date]:
     return [jdn_to_gregorian(jdn)]
 
 
+def _qingming(year: int) -> List[date]:
+    """Qingming festival: solar term at 15 degrees, UTC+8."""
+    from .chinese import qingming
+
+    return [qingming(year, 8.0)]
+
+
+def _dongzhi(year: int) -> List[date]:
+    """East Asian winter solstice festival (Dongzhi), UTC+8."""
+    from .chinese import december_solstice
+
+    return [december_solstice(year, 8.0)]
+
+
+#: Gazetted Deepavali dates (Singapore/Malaysia official calendars).
+_DEEPAVALI = {
+    2020: (11, 14), 2021: (11, 4), 2022: (10, 24), 2023: (11, 12),
+    2024: (10, 31), 2025: (10, 20), 2026: (11, 8),
+}
+
+
+def _deepavali(year: int) -> List[date]:
+    if year not in _DEEPAVALI:
+        raise ValueError(
+            f"Deepavali gazetted table covers {min(_DEEPAVALI)}-{max(_DEEPAVALI)}"
+        )
+    month, day = _DEEPAVALI[year]
+    return [date(year, month, day)]
+
+
 _FUNCTIONS: dict[str, Callable[[int], List[date]]] = {
     "EASTER": lambda year: [easter_date(year)],
     "ORTHODOX_EASTER": lambda year: [orthodox_easter_date(year)],
@@ -140,6 +170,9 @@ _FUNCTIONS: dict[str, Callable[[int], List[date]]] = {
     "AUTUMNAL_EQUINOX_JAPAN": _autumnal_equinox_japan,
     "MATARIKI": _matariki,
     "JUNE_SOLSTICE_CHILE": _june_solstice_chile,
+    "QINGMING": _qingming,
+    "DONGZHI": _dongzhi,
+    "DEEPAVALI": _deepavali,
 }
 
 

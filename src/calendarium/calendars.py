@@ -358,6 +358,38 @@ class HebrewCalendar(CalendarBase):
         return jdn_to_hebrew(gregorian_to_jdn(d.year, d.month, d.day))
 
 
+class ChineseLunisolarCalendar(CalendarBase):
+    """Astronomical Chinese lunisolar calendar (see :mod:`calendarium.chinese`).
+
+    The year is the lunar year beginning in that Gregorian year; masks use
+    regular (non-leap) month numbers 1..12.  ``tz_hours`` selects the
+    national meridian (UTC+8 China, UTC+9 Korea, UTC+7 Vietnam).
+    """
+
+    name = "Chinese"
+    tz_hours = 8.0
+
+    def to_gregorian(self, year: int, month: int, day: int) -> date:
+        from .chinese import lunar_to_gregorian
+
+        return lunar_to_gregorian(year, month, day, self.tz_hours)
+
+    def from_gregorian(self, d: date) -> tuple[int, int, int]:
+        from .chinese import gregorian_to_lunar
+
+        return gregorian_to_lunar(d, self.tz_hours)
+
+
+class KoreanLunisolarCalendar(ChineseLunisolarCalendar):
+    name = "KoreanLunisolar"
+    tz_hours = 9.0
+
+
+class VietnameseLunisolarCalendar(ChineseLunisolarCalendar):
+    name = "VietnameseLunisolar"
+    tz_hours = 7.0
+
+
 class PersianCalendar(CalendarBase):
     name = "Persian"
 
@@ -379,11 +411,14 @@ _CALENDARS = {
     "thaibuddhist": ThaiBuddhistCalendar(),
     "taiwan": TaiwanCalendar(),
     "korean": KoreanCalendar(),
+    "chinese": ChineseLunisolarCalendar(),
+    "koreanlunisolar": KoreanLunisolarCalendar(),
+    "vietnameselunisolar": VietnameseLunisolarCalendar(),
 }
 
 #: Calendars recognized by the configuration schema but not implemented.
 _KNOWN_UNSUPPORTED = {
-    "japanese", "japaneselunisolar", "koreanlunisolar", "taiwanlunisolar",
+    "japanese", "japaneselunisolar", "taiwanlunisolar",
 }
 
 
