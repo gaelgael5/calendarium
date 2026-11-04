@@ -24,6 +24,7 @@ from . import __version__
 from .core import Calendarium
 from .models import EventDate
 from .rules import registered_functions
+from .snapshot import dedupe_events
 
 _CSV_HEADER = ["Name", "StartDate", "EndDate", "ObservedDate", "Country", "Culture", "Free", "Calendar"]
 
@@ -82,25 +83,6 @@ def cmd_countries(args: argparse.Namespace) -> int:
     return 0
 
 
-def _dedupe(events: List[EventDate]) -> List[tuple]:
-    """Group identical events found in several region rule sets.
-
-    Returns ``(event, regions)`` pairs where ``regions`` is empty for a
-    country-wide event, or lists the region keys the event is specific to.
-    """
-    groups: dict = {}
-    for event in events:
-        key = (event.country, event.date, event.name, event.observed, event.free)
-        groups.setdefault(key, []).append(event)
-    result = []
-    for key in sorted(groups):
-        group = groups[key]
-        national = any(not e.region for e in group)
-        regions = [] if national else sorted({e.region for e in group})
-        result.append((group[0], regions))
-    return result
-
-
 def cmd_compute(args: argparse.Namespace) -> int:
     cal = _load(args)
     countries = args.country or cal.countries()
@@ -110,7 +92,7 @@ def cmd_compute(args: argparse.Namespace) -> int:
         for year in range(args.year, args.year + args.years):
             events.extend(_collect(cal, year, country, args.region))
 
-    rows = _dedupe(events)
+    rows = dedupe_events(events)
 
     if args.csv:
         with open(args.csv, "w", newline="", encoding="utf-8") as handle:

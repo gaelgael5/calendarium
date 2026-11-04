@@ -237,6 +237,39 @@ Concretely:
   project but not yet verified. Load them with
   `Calendarium.bundled(include_not_checked=True)` or the CLI flag `--all`.
 
+## Validating the referential
+
+Every country file is validated by the test suite, in layers:
+
+1. **Structure** (`tests/test_referential.py`) — each of the ~110 files is a
+   parametrized test case: metadata (strict for the verified tier), region
+   consistency, every rule parses, calendars resolve, and a `[FUNCTION]`
+   rule must run on a year-stable calendar.
+2. **Evaluation invariants** — every file is evaluated over 2000–2030:
+   no error, dates clipped to the requested year, observed day within a
+   week of the actual day, and no dead rule (each period produces its dates
+   in every year it applies to; lunar-calendar periods may skip around the
+   Gregorian year boundary and are checked over two-year windows).
+3. **Golden snapshots** (`tests/golden/<Country>.csv`, `tests/test_golden.py`)
+   — the business truth. A golden file is the human-reviewed output of a
+   country for pinned years; the suite recomputes and compares exactly.
+   Code cannot know that Bastille Day is correct: the review of the golden
+   diff against official sources is what certifies a country.
+
+To (re)generate a golden file:
+
+```bash
+python scripts/update_golden.py France          # one country
+python scripts/update_golden.py --all-checked   # the whole verified tier
+```
+
+**Promoting a country from `not_checked` to verified:**
+
+1. review and fix its `date_<Country>.json` against official sources;
+2. move the file from `data/countries/not_checked/` to `data/countries/`;
+3. generate its golden file and review every line of it;
+4. commit both — from then on, any change in its computed dates breaks CI.
+
 ## Differences from the C# version
 
 * The ANTLR lexer/parser is replaced by a hand-written recursive-descent
