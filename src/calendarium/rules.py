@@ -79,6 +79,56 @@ def _hanukkah(year: int) -> List[date]:
     return [get_calendar("Hebrew").to_gregorian(year + 3761, 9, 25)]
 
 
+def _vernal_equinox_japan(year: int) -> List[date]:
+    """Shunbun no hi -- official arithmetic formula, valid 1980-2099."""
+    if not 1980 <= year <= 2099:
+        raise ValueError("Japanese equinox formula is valid for 1980-2099")
+    day = int(20.8431 + 0.242194 * (year - 1980) - (year - 1980) // 4)
+    return [date(year, 3, day)]
+
+
+def _autumnal_equinox_japan(year: int) -> List[date]:
+    """Shubun no hi -- official arithmetic formula, valid 1980-2099."""
+    if not 1980 <= year <= 2099:
+        raise ValueError("Japanese equinox formula is valid for 1980-2099")
+    day = int(23.2488 + 0.242194 * (year - 1980) - (year - 1980) // 4)
+    return [date(year, 9, day)]
+
+
+#: Gazetted Matariki public holiday dates (New Zealand, te Pire mo te
+#: Hararei Tumatanui o te Kahui o Matariki 2022).
+_MATARIKI = {
+    2022: (6, 24), 2023: (7, 14), 2024: (6, 28), 2025: (6, 20),
+    2026: (7, 10), 2027: (6, 25), 2028: (7, 14), 2029: (7, 6),
+    2030: (6, 21),
+}
+
+
+def _matariki(year: int) -> List[date]:
+    if year not in _MATARIKI:
+        raise ValueError(f"Matariki gazetted table covers {min(_MATARIKI)}-{max(_MATARIKI)}")
+    month, day = _MATARIKI[year]
+    return [date(year, month, day)]
+
+
+def _june_solstice_chile(year: int) -> List[date]:
+    """National Day of Indigenous Peoples (Chile, law 21.357): the June
+    solstice as a continental-Chile (UTC-4) calendar date.
+
+    Mean-solstice approximation from Meeus, Astronomical Algorithms ch. 27
+    (accurate to ~15 minutes); 2021 follows the date fixed by the law.
+    """
+    if year == 2021:
+        return [date(2021, 6, 21)]
+    y = (year - 2000) / 1000.0
+    jde = 2451716.56767 + 365241.62603 * y + 0.00325 * y**2 + 0.00888 * y**3 - 0.00030 * y**4
+    local = jde - 4.0 / 24.0  # continental Chile is UTC-4 in June (no DST)
+    jdn = int(local + 0.5)
+    from .calendars import jdn_to_gregorian
+
+    return [jdn_to_gregorian(jdn)]
+
+
 _FUNCTIONS: dict[str, Callable[[int], List[date]]] = {
     "EASTER": lambda year: [easter_date(year)],
     "ORTHODOX_EASTER": lambda year: [orthodox_easter_date(year)],
@@ -86,6 +136,10 @@ _FUNCTIONS: dict[str, Callable[[int], List[date]]] = {
     "ROSH_HASHANAH": _rosh_hashanah,
     "YOM_KIPPUR": _yom_kippur,
     "HANUKKAH": _hanukkah,
+    "VERNAL_EQUINOX_JAPAN": _vernal_equinox_japan,
+    "AUTUMNAL_EQUINOX_JAPAN": _autumnal_equinox_japan,
+    "MATARIKI": _matariki,
+    "JUNE_SOLSTICE_CHILE": _june_solstice_chile,
 }
 
 

@@ -104,6 +104,29 @@ def test_observed_first_matching_clause_wins():
     assert rule.evaluate(date(2021, 1, 3)) == date(2021, 1, 4)
 
 
+def test_japanese_equinoxes():
+    assert parse_date_rule("[VERNAL_EQUINOX_JAPAN]").evaluate(2024) == [date(2024, 3, 20)]
+    assert parse_date_rule("[VERNAL_EQUINOX_JAPAN]").evaluate(2026) == [date(2026, 3, 20)]
+    assert parse_date_rule("[AUTUMNAL_EQUINOX_JAPAN]").evaluate(2024) == [date(2024, 9, 22)]
+    assert parse_date_rule("[AUTUMNAL_EQUINOX_JAPAN]").evaluate(2025) == [date(2025, 9, 23)]
+
+
+def test_matariki_gazetted():
+    assert parse_date_rule("[MATARIKI]").evaluate(2024) == [date(2024, 6, 28)]
+    assert parse_date_rule("[MATARIKI]").evaluate(2025) == [date(2025, 6, 20)]
+    assert parse_date_rule("[MATARIKI]").evaluate(2026) == [date(2026, 7, 10)]
+    with pytest.raises(ValueError):
+        parse_date_rule("[MATARIKI]").evaluate(2060)
+
+
+def test_june_solstice_chile():
+    # dates tabulated by law 21.357
+    expected = {2021: 21, 2022: 21, 2023: 21, 2024: 20, 2025: 20,
+                2026: 21, 2027: 21, 2028: 20, 2029: 20, 2030: 21}
+    for year, day in expected.items():
+        assert parse_date_rule("[JUNE_SOLSTICE_CHILE]").evaluate(year) == [date(year, 6, day)], year
+
+
 def test_register_function():
     register_function("MIDSUMMER", lambda year: [date(year, 6, 24)])
     assert "MIDSUMMER" in registered_functions()
