@@ -1,0 +1,144 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Ukraine",
+  "Culture": "uk-UA",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Orthodox Christmas",
+      "RuleDate": "1-7",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "removed from 2023"
+      ],
+      "YearEnd": 2022
+    },
+    {
+      "Name": "International Women's Day",
+      "RuleDate": "3-8",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Sunday",
+      "RuleDate": "[ORTHODOX_EASTER]",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([ORTHODOX_EASTER]) + 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "weekend compensation suspended since 2022"
+      ],
+      "YearEnd": 2022
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Victory Day",
+      "RuleDate": "5-9",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "replaced from 2023"
+      ],
+      "YearEnd": 2022
+    },
+    {
+      "Name": "Day of Remembrance and Victory",
+      "RuleDate": "5-8",
+      "Free": true,
+      "Translations": [],
+      "Tags": [],
+      "YearStart": 2023
+    },
+    {
+      "Name": "Trinity Sunday",
+      "RuleDate": "([ORTHODOX_EASTER]) + 49",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Constitution Day",
+      "RuleDate": "6-28",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Statehood Day",
+      "RuleDate": "7-28",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "introduced 2022"
+      ],
+      "YearStart": 2022,
+      "YearEnd": 2023
+    },
+    {
+      "Name": "Statehood Day",
+      "RuleDate": "7-15",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "moved to 15 July from 2024"
+      ],
+      "YearStart": 2024
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "8-24",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Defenders Day",
+      "RuleDate": "10-14",
+      "Free": true,
+      "Translations": [],
+      "Tags": [],
+      "YearStart": 2015,
+      "YearEnd": 2022
+    },
+    {
+      "Name": "Defenders Day",
+      "RuleDate": "10-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "moved to 1 October from 2023"
+      ],
+      "YearStart": 2023
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [],
+      "Tags": [],
+      "YearStart": 2017
+    }
+  ]
+}
