@@ -1,0 +1,213 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Chile",
+  "Culture": "es-CL",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Año Nuevo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Viernes Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Holy Saturday",
+      "RuleDate": "([EASTER]) - 1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Sábado Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día del Trabajo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Navy Day",
+      "RuleDate": "5-21",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de las Glorias Navales"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "National Day of Indigenous Peoples",
+      "RuleDate": "[JUNE_SOLSTICE_CHILE]",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día Nacional de los Pueblos Indígenas"
+        }
+      ],
+      "Tags": [
+        "June solstice, law 21.357"
+      ],
+      "YearStart": 2021
+    },
+    {
+      "Name": "St. Peter and St. Paul",
+      "RuleDate": "6-29",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY | THURSDAY) : << MONDAY ; ? FRIDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "San Pedro y San Pablo"
+        }
+      ],
+      "Tags": [
+        "trasladable, law 19.668"
+      ]
+    },
+    {
+      "Name": "Our Lady of Mount Carmel",
+      "RuleDate": "7-16",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Virgen del Carmen"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Assumption",
+      "RuleDate": "8-15",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Asunción de la Virgen"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "9-18",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Fiestas Patrias"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Army Day",
+      "RuleDate": "9-19",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de las Glorias del Ejército"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Race Day",
+      "RuleDate": "10-12",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY | THURSDAY) : << MONDAY ; ? FRIDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Encuentro de Dos Mundos"
+        }
+      ],
+      "Tags": [
+        "trasladable, law 19.668"
+      ]
+    },
+    {
+      "Name": "Evangelical Churches Day",
+      "RuleDate": "10-31",
+      "RuleObserved": "? TUESDAY : << FRIDAY ; ? WEDNESDAY : >> FRIDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de las Iglesias Evangélicas y Protestantes"
+        }
+      ],
+      "Tags": [
+        "law 20.299"
+      ]
+    },
+    {
+      "Name": "All Saints' Day",
+      "RuleDate": "11-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Todos los Santos"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Immaculate Conception",
+      "RuleDate": "12-8",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Inmaculada Concepción"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Navidad"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}

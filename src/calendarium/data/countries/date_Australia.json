@@ -1,0 +1,82 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Australia",
+  "Culture": "en-AU",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Australia Day",
+      "RuleDate": "1-26",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Saturday",
+      "RuleDate": "([EASTER]) - 1",
+      "Free": false,
+      "Translations": [],
+      "Tags": [
+        "most states"
+      ]
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([EASTER]) + 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Anzac Day",
+      "RuleDate": "4-25",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "no national substitute day"
+      ]
+    },
+    {
+      "Name": "King's Birthday",
+      "RuleDate": "(6-8) >> MONDAY",
+      "Free": false,
+      "Translations": [],
+      "Tags": [
+        "second Monday of June in most states; QLD and WA differ"
+      ]
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Boxing Day",
+      "RuleDate": "12-26",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}

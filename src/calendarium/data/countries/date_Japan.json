@@ -1,0 +1,151 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Japan",
+  "Culture": "ja-JP",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Coming of Age Day",
+      "RuleDate": "(1-8) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "second Monday of January"
+      ]
+    },
+    {
+      "Name": "National Foundation Day",
+      "RuleDate": "2-11",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Emperor's Birthday",
+      "RuleDate": "2-23",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [],
+      "YearStart": 2020
+    },
+    {
+      "Name": "Vernal Equinox Day",
+      "RuleDate": "[VERNAL_EQUINOX_JAPAN]",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Showa Day",
+      "RuleDate": "4-29",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Constitution Memorial Day",
+      "RuleDate": "5-3",
+      "RuleObserved": "? SUNDAY : + 3",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "furikae within Golden Week"
+      ]
+    },
+    {
+      "Name": "Greenery Day",
+      "RuleDate": "5-4",
+      "RuleObserved": "? SUNDAY : + 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "furikae within Golden Week"
+      ]
+    },
+    {
+      "Name": "Children's Day",
+      "RuleDate": "5-5",
+      "RuleObserved": "? SUNDAY : + 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "furikae within Golden Week"
+      ]
+    },
+    {
+      "Name": "Marine Day",
+      "RuleDate": "(7-15) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "third Monday of July"
+      ]
+    },
+    {
+      "Name": "Mountain Day",
+      "RuleDate": "8-11",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [],
+      "YearStart": 2016
+    },
+    {
+      "Name": "Respect for the Aged Day",
+      "RuleDate": "(9-15) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "third Monday of September"
+      ]
+    },
+    {
+      "Name": "Autumnal Equinox Day",
+      "RuleDate": "[AUTUMNAL_EQUINOX_JAPAN]",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "a Citizens' Holiday can arise before it in some years; not expressible"
+      ]
+    },
+    {
+      "Name": "Sports Day",
+      "RuleDate": "(10-8) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "second Monday of October"
+      ]
+    },
+    {
+      "Name": "Culture Day",
+      "RuleDate": "11-3",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Thanksgiving Day",
+      "RuleDate": "11-23",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}
