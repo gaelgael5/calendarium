@@ -1,0 +1,159 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Paraguay",
+  "Culture": "es-PY",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Año Nuevo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Heroes' Day",
+      "RuleDate": "3-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de los Héroes"
+        }
+      ],
+      "Tags": [
+        "may be moved by annual decree"
+      ]
+    },
+    {
+      "Name": "Maundy Thursday",
+      "RuleDate": "([EASTER]) - 3",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Jueves Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Viernes Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día del Trabajador"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "5-14",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Independencia Nacional"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day 2nd Day",
+      "RuleDate": "5-15",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Independencia Nacional"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Chaco Armistice",
+      "RuleDate": "6-12",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Paz del Chaco"
+        }
+      ],
+      "Tags": [
+        "may be moved by annual decree"
+      ]
+    },
+    {
+      "Name": "Founding of Asuncion",
+      "RuleDate": "8-15",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Fundación de Asunción"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Battle of Boqueron",
+      "RuleDate": "9-29",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Victoria de Boquerón"
+        }
+      ],
+      "Tags": [
+        "may be moved by annual decree"
+      ]
+    },
+    {
+      "Name": "Virgin of Caacupe",
+      "RuleDate": "12-8",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Virgen de Caacupé"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Navidad"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}

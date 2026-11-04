@@ -1,0 +1,41 @@
+# Calendarium golden snapshot -- human-reviewed reference output
+# country: Paraguay
+# years: 2024,2025,2026
+# regenerate: python scripts/update_golden.py Paraguay
+date;name;observed;free;regions
+2024-01-01;New Year's Day;2024-01-01;true;
+2024-03-01;Heroes' Day;2024-03-01;true;
+2024-03-28;Maundy Thursday;2024-03-28;true;
+2024-03-29;Good Friday;2024-03-29;true;
+2024-05-01;Labour Day;2024-05-01;true;
+2024-05-14;Independence Day;2024-05-14;true;
+2024-05-15;Independence Day 2nd Day;2024-05-15;true;
+2024-06-12;Chaco Armistice;2024-06-12;true;
+2024-08-15;Founding of Asuncion;2024-08-15;true;
+2024-09-29;Battle of Boqueron;2024-09-29;true;
+2024-12-08;Virgin of Caacupe;2024-12-08;true;
+2024-12-25;Christmas Day;2024-12-25;true;
+2025-01-01;New Year's Day;2025-01-01;true;
+2025-03-01;Heroes' Day;2025-03-01;true;
+2025-04-17;Maundy Thursday;2025-04-17;true;
+2025-04-18;Good Friday;2025-04-18;true;
+2025-05-01;Labour Day;2025-05-01;true;
+2025-05-14;Independence Day;2025-05-14;true;
+2025-05-15;Independence Day 2nd Day;2025-05-15;true;
+2025-06-12;Chaco Armistice;2025-06-12;true;
+2025-08-15;Founding of Asuncion;2025-08-15;true;
+2025-09-29;Battle of Boqueron;2025-09-29;true;
+2025-12-08;Virgin of Caacupe;2025-12-08;true;
+2025-12-25;Christmas Day;2025-12-25;true;
+2026-01-01;New Year's Day;2026-01-01;true;
+2026-03-01;Heroes' Day;2026-03-01;true;
+2026-04-02;Maundy Thursday;2026-04-02;true;
+2026-04-03;Good Friday;2026-04-03;true;
+2026-05-01;Labour Day;2026-05-01;true;
+2026-05-14;Independence Day;2026-05-14;true;
+2026-05-15;Independence Day 2nd Day;2026-05-15;true;
+2026-06-12;Chaco Armistice;2026-06-12;true;
+2026-08-15;Founding of Asuncion;2026-08-15;true;
+2026-09-29;Battle of Boqueron;2026-09-29;true;
+2026-12-08;Virgin of Caacupe;2026-12-08;true;
+2026-12-25;Christmas Day;2026-12-25;true;
