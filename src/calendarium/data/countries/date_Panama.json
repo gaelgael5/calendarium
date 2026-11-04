@@ -1,0 +1,176 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Panama",
+  "Culture": "es-PA",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Año Nuevo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Martyrs' Day",
+      "RuleDate": "1-9",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de los Mártires"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Carnival Monday",
+      "RuleDate": "([EASTER]) - 48",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Carnaval"
+        }
+      ],
+      "Tags": [
+        "commonly decreed, not statutory"
+      ]
+    },
+    {
+      "Name": "Carnival Tuesday",
+      "RuleDate": "([EASTER]) - 47",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Martes de Carnaval"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Viernes Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día del Trabajo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Separation from Colombia",
+      "RuleDate": "11-3",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Separación de Panamá de Colombia"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Flag Day",
+      "RuleDate": "11-4",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Bandera"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Colon Day",
+      "RuleDate": "11-5",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de Colón"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Shout in Villa de los Santos",
+      "RuleDate": "11-10",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Primer Grito de Independencia"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Independence from Spain",
+      "RuleDate": "11-28",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Independencia de Panamá de España"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Mother's Day",
+      "RuleDate": "12-8",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Madre"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Navidad"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}
