@@ -3,6 +3,7 @@ name: Release
 on:
   push:
     tags: ["v*"]
+  workflow_dispatch:  # manual release from the Actions tab (run it on main)
 
 jobs:
   build:
@@ -29,6 +30,8 @@ jobs:
 
   publish:
     needs: build
+    # publish only from a version tag or a manual run on main
+    if: startsWith(github.ref, 'refs/tags/v') || github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     # PyPI "trusted publishing": configure this repository + workflow +
     # environment on https://pypi.org/manage/account/publishing/ for the
