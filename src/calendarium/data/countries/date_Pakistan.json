@@ -1,0 +1,144 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Pakistan",
+  "Culture": "ur-PK",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "Kashmir Day",
+      "RuleDate": "2-5",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Pakistan Day",
+      "RuleDate": "3-23",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "8-14",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Iqbal Day",
+      "RuleDate": "11-9",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "restored as a public holiday in 2024"
+      ],
+      "YearStart": 2024
+    },
+    {
+      "Name": "Quaid-e-Azam Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Tasua",
+      "RuleDate": "1-9",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Ashura",
+      "RuleDate": "1-10",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid Milad-un-Nabi",
+      "RuleDate": "3-12",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid-ul-Fitr",
+      "RuleDate": "10-1",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid-ul-Fitr 2nd Day",
+      "RuleDate": "10-2",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid-ul-Fitr 3rd Day",
+      "RuleDate": "10-3",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid-ul-Azha",
+      "RuleDate": "12-10",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid-ul-Azha 2nd Day",
+      "RuleDate": "12-11",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid-ul-Azha 3rd Day",
+      "RuleDate": "12-12",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    }
+  ]
+}
