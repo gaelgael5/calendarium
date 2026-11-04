@@ -352,6 +352,11 @@ Releases are built and published by `.github/workflows/release.yml` when a
 git tag v0.2.0 && git push origin v0.2.0
 ```
 
+or manually from the GitHub **Actions** tab: select the *Release*
+workflow, *Run workflow* on `main` (publishing uses the version from
+`pyproject.toml`; bump it first, as PyPI refuses an already-published
+version).
+
 The workflow uses PyPI **trusted publishing** (no stored token): register
 the publisher once on <https://pypi.org/manage/account/publishing/> with
 repository `gaelgael5/calendarium`, workflow `release.yml` and environment
