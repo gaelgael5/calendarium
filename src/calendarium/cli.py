@@ -30,6 +30,8 @@ _CSV_HEADER = ["Name", "StartDate", "EndDate", "ObservedDate", "Country", "Cultu
 
 
 def _load(args: argparse.Namespace) -> Calendarium:
+    if getattr(args, "toc", None):
+        return Calendarium.from_toc(args.toc)
     if args.data:
         return Calendarium.from_directory(args.data)
     return Calendarium.bundled(include_not_checked=args.all)
@@ -150,6 +152,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     common = argparse.ArgumentParser(add_help=False)
     common.add_argument("--data", metavar="DIR", help="load configurations from DIR instead of the bundled referential")
+    common.add_argument("--toc", metavar="URI", help="load configurations from a TOC file (http(s) URL, file:// URI or local path)")
     common.add_argument("--all", action="store_true", help="also load the unverified (not_checked) configurations")
 
     sub = parser.add_subparsers(dest="command", required=True)

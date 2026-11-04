@@ -46,13 +46,15 @@ from .rules import (
     register_function,
     registered_functions,
 )
+from .toc import DEFAULT_TOC_URL, Toc, TocEntry, load_toc
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 __all__ = [
     "Calendarium",
     "CalendarBase",
     "CountryConfiguration",
+    "DEFAULT_TOC_URL",
     "DateRule",
     "EventDate",
     "IdentifiedDate",
@@ -60,6 +62,8 @@ __all__ = [
     "Period",
     "Region",
     "RuleSyntaxError",
+    "Toc",
+    "TocEntry",
     "Translation",
     "UnsupportedCalendarError",
     "__version__",
@@ -70,6 +74,7 @@ __all__ = [
     "load_bundled",
     "load_directory",
     "load_file",
+    "load_toc",
     "orthodox_easter_date",
     "parse_date_rule",
     "parse_observed_rule",

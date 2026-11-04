@@ -70,6 +70,40 @@ class Calendarium:
         """Engine over the ``date_*.json`` files of a directory."""
         return cls(load_directory(path, recursive=recursive))
 
+    @classmethod
+    def from_toc(
+        cls,
+        source: Union[str, Path],
+        countries: Optional[Iterable[str]] = None,
+        timeout: float = 10.0,
+    ) -> "Calendarium":
+        """Engine over configurations listed in a TOC file.
+
+        ``source`` is an ``http(s)://`` URL, a ``file://`` URI or a local
+        path; ``countries`` optionally restricts to country names or
+        culture codes (default: everything the TOC lists).  See
+        :mod:`calendarium.toc`.
+        """
+        from .toc import Toc
+
+        toc = Toc.load(source, timeout=timeout)
+        return cls(toc.load_all(countries, timeout=timeout))
+
+    def add_configuration(self, configuration: CountryConfiguration) -> None:
+        """Register (or replace) one configuration on a live engine."""
+        if configuration.is_default:
+            self._defaults[configuration.country] = configuration
+            return
+        country = configuration.country
+        self._configurations = [
+            c for c in self._configurations if c.country != country
+        ] + [configuration]
+        for key in [k for k in self._rules if k[0] == country]:
+            del self._rules[key]
+        for key in [k for k in self._cache if k[1] == country]:
+            del self._cache[key]
+        self._register(configuration)
+
     # -- registration ------------------------------------------------------
 
     def _register(self, configuration: CountryConfiguration) -> None:

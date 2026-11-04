@@ -3,8 +3,8 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "calendarium"
-version = "0.1.0"
+name = "black-beard-calendarium"
+version = "0.2.0"
 description = "Referential of computed dates (public holidays and observances) driven by per-country JSON rule files."
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -32,7 +32,12 @@ dev = ["pytest>=7"]
 where = ["src"]
 
 [tool.setuptools.package-data]
-calendarium = ["data/countries/*.json", "data/countries/not_checked/*.json"]
+calendarium = [
+    "data/countries/*.json",
+    "data/countries/toc.txt",
+    "data/countries/not_checked/*.json",
+    "data/countries/not_checked/README.md",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

@@ -14,8 +14,11 @@ standard library).
 ## Installation
 
 ```bash
-pip install .
+pip install black-beard-calendarium
 ```
+
+(The import name stays `calendarium`; the PyPI distribution is
+`black-beard-calendarium` because the bare name was already taken.)
 
 Development install with tests:
 
@@ -61,6 +64,42 @@ Custom configuration folders are supported:
 ```python
 cal = Calendarium.from_directory("path/to/countries")
 ```
+
+## Loading countries from a TOC
+
+Where the original .NET project shipped one NuGet package per country,
+the Python version loads countries on demand from a **table of contents**:
+a small text file listing `country;culture;uri`, one per line. Relative
+URIs resolve against the TOC's own location, so the same file works over
+HTTP, from a mirror, or from a local folder.
+
+```python
+from calendarium import Calendarium, Toc, DEFAULT_TOC_URL
+
+# the TOC published in this repository (raw GitHub)
+cal = Calendarium.from_toc(DEFAULT_TOC_URL)
+
+# pick countries by name or culture code
+cal = Calendarium.from_toc(DEFAULT_TOC_URL, countries=["fr-FR", "Germany"])
+
+# a TOC on disk or on any other site works the same way
+cal = Calendarium.from_toc("/data/countries/toc.txt")
+cal = Calendarium.from_toc("https://my-mirror.example.org/countries/toc.txt")
+
+# inspect before loading, or add to a live engine
+toc = Toc.load(DEFAULT_TOC_URL)
+print(toc.countries())
+cal.add_configuration(toc.load_country("fr-FR"))
+```
+
+From the command line: `calendarium countries --toc URI`,
+`calendarium compute 2025 France --toc URI`.
+
+The repository's TOC lives at `src/calendarium/data/countries/toc.txt`
+and is regenerated with `python scripts/update_toc.py` whenever a country
+is added. Note that the bundled referential ships inside the package
+anyway — the TOC is for fetching configurations newer than your installed
+package, or for serving your own curated set.
 
 ## Command line
 
@@ -303,6 +342,25 @@ python scripts/update_golden.py --all-checked   # the whole verified tier
   `[HANUKKAH]`; the registry is user-extensible.
 * The NuGet distribution commands of the console are gone: the referential
   ships with the package.
+
+## Releasing to PyPI
+
+Releases are built and published by `.github/workflows/release.yml` when a
+`v*` tag is pushed:
+
+```bash
+git tag v0.2.0 && git push origin v0.2.0
+```
+
+The workflow uses PyPI **trusted publishing** (no stored token): register
+the publisher once on <https://pypi.org/manage/account/publishing/> with
+repository `gaelgael5/calendarium`, workflow `release.yml` and environment
+`pypi`. A local build is just:
+
+```bash
+python -m pip install build twine
+python -m build && python -m twine check dist/*
+```
 
 ## License
 
