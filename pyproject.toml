@@ -35,6 +35,7 @@ where = ["src"]
 calendarium = [
     "data/countries/*.json",
     "data/countries/toc.txt",
+    "data/countries/toc.full.txt",
     "data/countries/not_checked/*.json",
     "data/countries/not_checked/README.md",
 ]

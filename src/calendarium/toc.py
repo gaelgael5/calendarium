@@ -46,9 +46,17 @@ from .loader import loads
 from .models import CountryConfiguration
 
 #: Raw address of the TOC published in this repository (main branch).
+#: Its URIs are relative and resolve against the TOC location.
 DEFAULT_TOC_URL = (
     "https://raw.githubusercontent.com/gaelgael5/calendarium/"
     "main/src/calendarium/data/countries/toc.txt"
+)
+
+#: Same TOC with absolute URLs: copy or mirror it anywhere, its entries
+#: keep pointing at this repository.
+DEFAULT_TOC_FULL_URL = (
+    "https://raw.githubusercontent.com/gaelgael5/calendarium/"
+    "main/src/calendarium/data/countries/toc.full.txt"
 )
 
 
