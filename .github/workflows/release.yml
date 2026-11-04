@@ -45,3 +45,7 @@ jobs:
           name: dist
           path: dist/
       - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          # tagging an already-published version (e.g. laying the tag
+          # down after a manual release) must be a green no-op
+          skip-existing: true
