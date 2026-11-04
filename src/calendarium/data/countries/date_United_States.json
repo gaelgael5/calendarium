@@ -1,0 +1,107 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "United_States",
+  "Culture": "en-US",
+  "Calendar": "Gregorian",
+  "Url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? SATURDAY : << FRIDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Martin Luther King Jr. Day",
+      "RuleDate": "(1-15) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "third Monday of January"
+      ]
+    },
+    {
+      "Name": "Washington's Birthday",
+      "RuleDate": "(2-15) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "third Monday of February; commonly called Presidents' Day"
+      ]
+    },
+    {
+      "Name": "Memorial Day",
+      "RuleDate": "(5-31) << MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "last Monday of May"
+      ]
+    },
+    {
+      "Name": "Juneteenth National Independence Day",
+      "RuleDate": "6-19",
+      "RuleObserved": "? SATURDAY : << FRIDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "federal holiday since 2021"
+      ],
+      "YearStart": 2021
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "7-4",
+      "RuleObserved": "? SATURDAY : << FRIDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labor Day",
+      "RuleDate": "(9-1) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "first Monday of September"
+      ]
+    },
+    {
+      "Name": "Columbus Day",
+      "RuleDate": "(10-8) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "second Monday of October"
+      ]
+    },
+    {
+      "Name": "Veterans Day",
+      "RuleDate": "11-11",
+      "RuleObserved": "? SATURDAY : << FRIDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Thanksgiving Day",
+      "RuleDate": "(11-22) >> THURSDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "fourth Thursday of November"
+      ]
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "RuleObserved": "? SATURDAY : << FRIDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}
