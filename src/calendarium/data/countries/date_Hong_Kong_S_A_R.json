@@ -1,0 +1,150 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Hong_Kong_S_A_R",
+  "Culture": "zh-HK",
+  "Calendar": "Gregorian",
+  "Url": "https://www.gov.hk/en/about/abouthk/holiday/",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Lunar New Year",
+      "RuleDate": "1-1",
+      "RuleObserved": "? SUNDAY : + 3",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Lunar New Year 2nd Day",
+      "RuleDate": "1-2",
+      "RuleObserved": "? SUNDAY : + 2",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Lunar New Year 3rd Day",
+      "RuleDate": "1-3",
+      "RuleObserved": "? SUNDAY : + 1",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Ching Ming Festival",
+      "RuleDate": "[QINGMING]",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Day following Good Friday",
+      "RuleDate": "([EASTER]) - 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([EASTER]) + 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Buddha's Birthday",
+      "RuleDate": "4-8",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Tuen Ng Festival",
+      "RuleDate": "5-5",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "HKSAR Establishment Day",
+      "RuleDate": "7-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Day following Mid-Autumn Festival",
+      "RuleDate": "8-16",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "National Day",
+      "RuleDate": "10-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Chung Yeung Festival",
+      "RuleDate": "9-9",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "RuleObserved": "? SUNDAY : + 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "First weekday after Christmas Day",
+      "RuleDate": "12-26",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}
