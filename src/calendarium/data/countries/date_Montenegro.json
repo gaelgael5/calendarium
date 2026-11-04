@@ -1,0 +1,92 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Montenegro",
+  "Culture": "sr-Latn-ME",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? SUNDAY : + 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "New Year 2nd Day",
+      "RuleDate": "1-2",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Orthodox Christmas",
+      "RuleDate": "1-7",
+      "Free": false,
+      "Translations": [],
+      "Tags": [
+        "for Orthodox believers"
+      ]
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "RuleObserved": "? SUNDAY : + 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day 2nd Day",
+      "RuleDate": "5-2",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "5-21",
+      "RuleObserved": "? SUNDAY : + 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day 2nd Day",
+      "RuleDate": "5-22",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Statehood Day",
+      "RuleDate": "7-13",
+      "RuleObserved": "? SUNDAY : + 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Statehood Day 2nd Day",
+      "RuleDate": "7-14",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Njegos Day",
+      "RuleDate": "11-13",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "public holiday since 2021"
+      ],
+      "YearStart": 2021
+    }
+  ]
+}
