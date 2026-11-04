@@ -1,0 +1,50 @@
+# Calendarium golden snapshot -- human-reviewed reference output
+# country: Kazakhstan
+# years: 2024,2025,2026
+# regenerate: python scripts/update_golden.py Kazakhstan
+date;name;observed;free;regions
+2024-01-01;New Year's Day;2024-01-01;true;
+2024-01-02;New Year 2nd Day;2024-01-02;true;
+2024-01-07;Orthodox Christmas;2024-01-07;true;
+2024-03-08;International Women's Day;2024-03-08;true;
+2024-03-21;Nauryz;2024-03-21;true;
+2024-03-22;Nauryz 2nd Day;2024-03-22;true;
+2024-03-23;Nauryz 3rd Day;2024-03-23;true;
+2024-05-01;Unity Day;2024-05-01;true;
+2024-05-07;Defender of the Fatherland Day;2024-05-07;true;
+2024-05-09;Victory Day;2024-05-09;true;
+2024-06-17;Kurban Ait;2024-06-17;true;
+2024-07-06;Capital Day;2024-07-06;true;
+2024-08-30;Constitution Day;2024-08-30;true;
+2024-10-25;Republic Day;2024-10-25;true;
+2024-12-16;Independence Day;2024-12-16;true;
+2025-01-01;New Year's Day;2025-01-01;true;
+2025-01-02;New Year 2nd Day;2025-01-02;true;
+2025-01-07;Orthodox Christmas;2025-01-07;true;
+2025-03-08;International Women's Day;2025-03-08;true;
+2025-03-21;Nauryz;2025-03-21;true;
+2025-03-22;Nauryz 2nd Day;2025-03-22;true;
+2025-03-23;Nauryz 3rd Day;2025-03-23;true;
+2025-05-01;Unity Day;2025-05-01;true;
+2025-05-07;Defender of the Fatherland Day;2025-05-07;true;
+2025-05-09;Victory Day;2025-05-09;true;
+2025-06-07;Kurban Ait;2025-06-07;true;
+2025-07-06;Capital Day;2025-07-06;true;
+2025-08-30;Constitution Day;2025-08-30;true;
+2025-10-25;Republic Day;2025-10-25;true;
+2025-12-16;Independence Day;2025-12-16;true;
+2026-01-01;New Year's Day;2026-01-01;true;
+2026-01-02;New Year 2nd Day;2026-01-02;true;
+2026-01-07;Orthodox Christmas;2026-01-07;true;
+2026-03-08;International Women's Day;2026-03-08;true;
+2026-03-21;Nauryz;2026-03-21;true;
+2026-03-22;Nauryz 2nd Day;2026-03-22;true;
+2026-03-23;Nauryz 3rd Day;2026-03-23;true;
+2026-05-01;Unity Day;2026-05-01;true;
+2026-05-07;Defender of the Fatherland Day;2026-05-07;true;
+2026-05-09;Victory Day;2026-05-09;true;
+2026-05-27;Kurban Ait;2026-05-27;true;
+2026-07-06;Capital Day;2026-07-06;true;
+2026-08-30;Constitution Day;2026-08-30;true;
+2026-10-25;Republic Day;2026-10-25;true;
+2026-12-16;Independence Day;2026-12-16;true;
