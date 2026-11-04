@@ -25,6 +25,19 @@ def test_bundled_toc_is_in_sync_with_the_data_directory():
         assert Path(entry.uri).name == Path(configuration.source_file).name
 
 
+def test_full_toc_matches_relative_toc():
+    """toc.full.txt lists the same countries with absolute GitHub URLs."""
+    relative = Toc.load(TOC_PATH)
+    full = Toc.load(bundled_data_path() / "toc.full.txt")
+    assert full.countries() == relative.countries()
+    for entry, rel_entry in zip(full.entries, relative.entries):
+        assert entry.culture == rel_entry.culture
+        assert entry.uri.startswith(
+            "https://raw.githubusercontent.com/gaelgael5/calendarium/main/"
+        )
+        assert entry.uri.endswith(Path(rel_entry.uri).name)
+
+
 def test_relative_uris_resolve_against_the_toc():
     toc = Toc.load(TOC_PATH)
     entry = toc.find("France")

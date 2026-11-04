@@ -95,9 +95,15 @@ cal.add_configuration(toc.load_country("fr-FR"))
 From the command line: `calendarium countries --toc URI`,
 `calendarium compute 2025 France --toc URI`.
 
-The repository's TOC lives at `src/calendarium/data/countries/toc.txt`
-and is regenerated with `python scripts/update_toc.py` whenever a country
-is added. Note that the bundled referential ships inside the package
+The repository publishes the TOC in two equivalent flavours, regenerated
+with `python scripts/update_toc.py` whenever a country is added:
+
+* `src/calendarium/data/countries/toc.txt` — relative URIs, resolved
+  against the TOC location: serve or clone the folder anywhere and it
+  keeps working as a self-contained set;
+* `src/calendarium/data/countries/toc.full.txt` — absolute raw-GitHub
+  URLs (`DEFAULT_TOC_FULL_URL`): copy this single file anywhere (another
+  site, a shared drive) and its entries still point at this repository. Note that the bundled referential ships inside the package
 anyway — the TOC is for fetching configurations newer than your installed
 package, or for serving your own curated set.
 

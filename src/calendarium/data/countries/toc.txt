@@ -1,6 +1,7 @@
 # Calendarium table of contents -- verified country configurations.
-# Format: country;culture;uri  (relative URIs resolve against this file)
+# Format: country;culture;uri
 # Regenerate with: python scripts/update_toc.py
+# (relative URIs resolve against this file)
 Albania;sq-AL;date_Albania.json
 Algeria;ar-DZ;date_Algeria.json
 Andorra;ca-AD;date_Andorra.json
