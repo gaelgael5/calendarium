@@ -1,0 +1,171 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Guatemala",
+  "Culture": "es-GT",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Año Nuevo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Maundy Thursday",
+      "RuleDate": "([EASTER]) - 3",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Jueves Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Viernes Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Holy Saturday",
+      "RuleDate": "([EASTER]) - 1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Sábado Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día del Trabajo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Army Day",
+      "RuleDate": "6-30",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día del Ejército"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Assumption",
+      "RuleDate": "8-15",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Asunción"
+        }
+      ],
+      "Tags": [
+        "Guatemala City only"
+      ]
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "9-15",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Independencia"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Revolution Day",
+      "RuleDate": "10-20",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Revolución"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "All Saints' Day",
+      "RuleDate": "11-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Todos los Santos"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Eve",
+      "RuleDate": "12-24",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Nochebuena"
+        }
+      ],
+      "Tags": [
+        "half day from noon"
+      ]
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Navidad"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "New Year's Eve",
+      "RuleDate": "12-31",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Fin de año"
+        }
+      ],
+      "Tags": [
+        "half day from noon"
+      ]
+    }
+  ]
+}
