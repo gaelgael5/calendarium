@@ -1,0 +1,35 @@
+name: Tag
+
+# Utility: create and push a git tag from the Actions tab or the API.
+# Useful because releases can be fired by workflow_dispatch without a
+# tag; this lets the tag be laid down afterwards for traceability.
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Tag name (e.g. v0.3.0)"
+        required: true
+      sha:
+        description: "Commit SHA to tag (default: head of the ref this run uses)"
+        required: false
+        default: ""
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Create and push the tag
+        env:
+          TAG: ${{ inputs.tag }}
+          SHA: ${{ inputs.sha }}
+        run: |
+          target="${SHA:-$GITHUB_SHA}"
+          git tag "$TAG" "$target"
+          git push origin "refs/tags/$TAG"
+          echo "tagged $target as $TAG"
