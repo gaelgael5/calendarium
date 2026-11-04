@@ -127,6 +127,20 @@ def test_june_solstice_chile():
         assert parse_date_rule("[JUNE_SOLSTICE_CHILE]").evaluate(year) == [date(year, 6, day)], year
 
 
+def test_thai_bucha_gazetted():
+    # official gazetted dates; 2023 and 2026 are Thai leap-month years
+    assert parse_date_rule("[MAKHA_BUCHA]").evaluate(2024) == [date(2024, 2, 24)]
+    assert parse_date_rule("[MAKHA_BUCHA]").evaluate(2025) == [date(2025, 2, 12)]
+    assert parse_date_rule("[MAKHA_BUCHA]").evaluate(2026) == [date(2026, 3, 3)]
+    assert parse_date_rule("[VISAKHA_BUCHA]").evaluate(2024) == [date(2024, 5, 22)]
+    assert parse_date_rule("[VISAKHA_BUCHA]").evaluate(2025) == [date(2025, 5, 11)]
+    assert parse_date_rule("[ASARNHA_BUCHA]").evaluate(2025) == [date(2025, 7, 10)]
+    # Khao Phansa is the day after Asarnha Bucha
+    assert parse_date_rule("([ASARNHA_BUCHA]) + 1").evaluate(2025) == [date(2025, 7, 11)]
+    with pytest.raises(ValueError):
+        parse_date_rule("[VISAKHA_BUCHA]").evaluate(2060)
+
+
 def test_register_function():
     register_function("MIDSUMMER", lambda year: [date(year, 6, 24)])
     assert "MIDSUMMER" in registered_functions()

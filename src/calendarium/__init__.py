@@ -41,6 +41,7 @@ from .rules import (
     DateRule,
     ObservedRule,
     RuleSyntaxError,
+    gazetted_coverage,
     parse_date_rule,
     parse_observed_rule,
     register_function,
@@ -48,7 +49,7 @@ from .rules import (
 )
 from .toc import DEFAULT_TOC_URL, Toc, TocEntry, load_toc
 
-__version__ = "0.2.0"
+__version__ = "0.3.0"
 
 __all__ = [
     "Calendarium",
@@ -69,6 +70,7 @@ __all__ = [
     "__version__",
     "bundled_data_path",
     "easter_date",
+    "gazetted_coverage",
     "get_calendar",
     "julian_to_gregorian",
     "load_bundled",

@@ -1,0 +1,201 @@
+// Verified against the Bank of Thailand holiday calendar.
+// Not expressible here: the Royal Ploughing Ceremony Day (a government
+// holiday whose date is set each year by the court astrologers) and the
+// extra bridge/substitute days the Cabinet resolves year by year.
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Thailand",
+  "Culture": "th-TH",
+  "Calendar": "Gregorian",
+  "Url": "https://www.bot.or.th/en/financial-institutions-holiday.html",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Makha Bucha",
+      "RuleDate": "[MAKHA_BUCHA]",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "Thai lunar calendar; gazetted table encoded through 2027"
+      ],
+      "YearStart": 2020,
+      "YearEnd": 2027
+    },
+    {
+      "Name": "Chakri Memorial Day",
+      "RuleDate": "4-6",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Songkran Festival",
+      "RuleDate": "4-13",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "weekend substitute days are set by annual Cabinet resolution; not encoded"
+      ]
+    },
+    {
+      "Name": "Songkran Festival 2nd Day",
+      "RuleDate": "4-14",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "weekend substitute days are set by annual Cabinet resolution; not encoded"
+      ]
+    },
+    {
+      "Name": "Songkran Festival 3rd Day",
+      "RuleDate": "4-15",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "weekend substitute days are set by annual Cabinet resolution; not encoded"
+      ]
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "private sector; not a government holiday"
+      ]
+    },
+    {
+      "Name": "Coronation Day",
+      "RuleDate": "5-4",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "King Rama X, since 2019"
+      ],
+      "YearStart": 2019
+    },
+    {
+      "Name": "Visakha Bucha",
+      "RuleDate": "[VISAKHA_BUCHA]",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "Thai lunar calendar; gazetted table encoded through 2027"
+      ],
+      "YearStart": 2020,
+      "YearEnd": 2027
+    },
+    {
+      "Name": "Queen Suthida's Birthday",
+      "RuleDate": "6-3",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [],
+      "YearStart": 2019
+    },
+    {
+      "Name": "Asarnha Bucha",
+      "RuleDate": "[ASARNHA_BUCHA]",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "Thai lunar calendar; gazetted table encoded through 2027"
+      ],
+      "YearStart": 2020,
+      "YearEnd": 2027
+    },
+    {
+      "Name": "Khao Phansa",
+      "RuleDate": "([ASARNHA_BUCHA]) + 1",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "government offices only; not a private-sector holiday"
+      ],
+      "YearStart": 2020,
+      "YearEnd": 2027
+    },
+    {
+      "Name": "King Vajiralongkorn's Birthday",
+      "RuleDate": "7-28",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [],
+      "YearStart": 2017
+    },
+    {
+      "Name": "Queen Mother Sirikit's Birthday",
+      "RuleDate": "8-12",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "Mother's Day"
+      ]
+    },
+    {
+      "Name": "Navamindra Maharaj Day",
+      "RuleDate": "10-13",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "King Bhumibol Memorial Day"
+      ],
+      "YearStart": 2017
+    },
+    {
+      "Name": "Chulalongkorn Day",
+      "RuleDate": "10-23",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "King Bhumibol's Birthday",
+      "RuleDate": "12-5",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "National Day and Father's Day"
+      ]
+    },
+    {
+      "Name": "Constitution Day",
+      "RuleDate": "12-10",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "New Year's Eve",
+      "RuleDate": "12-31",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "cascading year-end substitutes may be adjusted by Cabinet"
+      ]
+    }
+  ]
+}
