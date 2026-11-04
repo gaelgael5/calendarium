@@ -173,6 +173,9 @@ Available in any rule as `[NAME]`:
 | `[AUTUMNAL_EQUINOX_JAPAN]` | Shubun no hi (official arithmetic formula, 1980–2099) |
 | `[MATARIKI]` | New Zealand gazetted Matariki dates (2022–2030) |
 | `[JUNE_SOLSTICE_CHILE]` | Chilean Indigenous Peoples' Day (law 21.357 solstice dates) |
+| `[QINGMING]` | Qingming festival — solar term at 15° (UTC+8) |
+| `[DONGZHI]` | East Asian winter solstice festival (UTC+8) |
+| `[DEEPAVALI]` | Gazetted Deepavali dates (2020–2026) |
 
 The registry is extensible:
 
@@ -193,6 +196,12 @@ period level); results are always returned as Gregorian dates. Supported:
   arithmetic family as .NET's `HijriCalendar`. For `UmAlQura` this
   approximates the Saudi lookup-table calendar: observed dates may differ by
   one day;
+* `Chinese`, `KoreanLunisolar`, `VietnameseLunisolar` — astronomical
+  Chinese lunisolar calendar (`calendarium.chinese`: Meeus new moons and
+  solar terms, winter-solstice anchored months, no-zhōngqì leap months),
+  computed at the national meridian (UTC+8 / UTC+9 / UTC+7) — which
+  reproduces, for instance, Tết 2007 falling one day before the Chinese
+  New Year;
 * `Persian` — arithmetic Jalaali calendar;
 * `ThaiBuddhist`, `Taiwan`, `Korean` — Gregorian with a year offset.
 
@@ -235,13 +244,12 @@ Concretely:
 
 ## Data tiers
 
-* `data/countries/` — verified configurations (100 countries). Each was
+* `data/countries/` — verified configurations (109 countries). Each was
   reviewed against its official holiday list, with substitute-day and
   moving rules encoded (see the per-country git history), and is pinned by
   a golden snapshot in `tests/golden/`.
 * `data/countries/not_checked/` — the remaining unverified configurations
-  (11 countries), each blocked for a documented reason — mostly the
-  Chinese lunisolar calendar — see
+  (Syria and Thailand), each blocked for a documented reason — see
   [`not_checked/README.md`](src/calendarium/data/countries/not_checked/README.md).
   Load them with `Calendarium.bundled(include_not_checked=True)` or the
   CLI flag `--all`.
