@@ -1,0 +1,29 @@
+# Calendarium golden snapshot -- human-reviewed reference output
+# country: United_Kingdom
+# years: 2024,2025,2026
+# regenerate: python scripts/update_golden.py United_Kingdom
+date;name;observed;free;regions
+2024-01-01;New Year's Day;2024-01-01;true;
+2024-03-29;Good Friday;2024-03-29;true;
+2024-04-01;Easter Monday;2024-04-01;true;
+2024-05-06;Early May Bank Holiday;2024-05-06;true;
+2024-05-27;Spring Bank Holiday;2024-05-27;true;
+2024-08-26;Summer Bank Holiday;2024-08-26;true;
+2024-12-25;Christmas Day;2024-12-25;true;
+2024-12-26;Boxing Day;2024-12-26;true;
+2025-01-01;New Year's Day;2025-01-01;true;
+2025-04-18;Good Friday;2025-04-18;true;
+2025-04-21;Easter Monday;2025-04-21;true;
+2025-05-05;Early May Bank Holiday;2025-05-05;true;
+2025-05-26;Spring Bank Holiday;2025-05-26;true;
+2025-08-25;Summer Bank Holiday;2025-08-25;true;
+2025-12-25;Christmas Day;2025-12-25;true;
+2025-12-26;Boxing Day;2025-12-26;true;
+2026-01-01;New Year's Day;2026-01-01;true;
+2026-04-03;Good Friday;2026-04-03;true;
+2026-04-06;Easter Monday;2026-04-06;true;
+2026-05-04;Early May Bank Holiday;2026-05-04;true;
+2026-05-25;Spring Bank Holiday;2026-05-25;true;
+2026-08-31;Summer Bank Holiday;2026-08-31;true;
+2026-12-25;Christmas Day;2026-12-25;true;
+2026-12-26;Boxing Day;2026-12-28;true;
