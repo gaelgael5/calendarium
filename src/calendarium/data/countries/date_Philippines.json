@@ -1,0 +1,168 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Philippines",
+  "Culture": "en-PH",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Maundy Thursday",
+      "RuleDate": "([EASTER]) - 3",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Black Saturday",
+      "RuleDate": "([EASTER]) - 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "special non-working day"
+      ]
+    },
+    {
+      "Name": "Day of Valor",
+      "RuleDate": "4-9",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "Araw ng Kagitingan"
+      ]
+    },
+    {
+      "Name": "Labor Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "6-12",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Ninoy Aquino Day",
+      "RuleDate": "8-21",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "special non-working day"
+      ]
+    },
+    {
+      "Name": "National Heroes Day",
+      "RuleDate": "(8-31) << MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "last Monday of August"
+      ]
+    },
+    {
+      "Name": "All Saints' Day",
+      "RuleDate": "11-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "special non-working day"
+      ]
+    },
+    {
+      "Name": "All Souls' Day",
+      "RuleDate": "11-2",
+      "Free": false,
+      "Translations": [],
+      "Tags": [
+        "special working/non-working day, varies by proclamation"
+      ]
+    },
+    {
+      "Name": "Bonifacio Day",
+      "RuleDate": "11-30",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Immaculate Conception",
+      "RuleDate": "12-8",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "special non-working day"
+      ]
+    },
+    {
+      "Name": "Christmas Eve",
+      "RuleDate": "12-24",
+      "Free": false,
+      "Translations": [],
+      "Tags": [
+        "commonly proclaimed special day"
+      ]
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Rizal Day",
+      "RuleDate": "12-30",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "New Year's Eve",
+      "RuleDate": "12-31",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "special non-working day"
+      ]
+    },
+    {
+      "Name": "Eid al-Fitr",
+      "RuleDate": "10-1",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day",
+        "date set by annual proclamation"
+      ]
+    },
+    {
+      "Name": "Eid al-Adha",
+      "RuleDate": "12-10",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day",
+        "date set by annual proclamation"
+      ]
+    }
+  ]
+}
