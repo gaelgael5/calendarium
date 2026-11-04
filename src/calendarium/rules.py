@@ -19,6 +19,12 @@ Observed rules (``RuleObserved``) transform a single date::
     "? (SATURDAY | SUNDAY) : >> MONDAY"   shifted to next Monday when it
                                           falls on a weekend
 
+Several clauses can be chained with ``;`` -- the first clause whose weekday
+condition matches is applied (used by countries with asymmetric substitute
+rules, e.g. the United States)::
+
+    "? SATURDAY : << FRIDAY ; ? SUNDAY : >> MONDAY"
+
 ``>>`` / ``<<`` move to the next / previous given weekday and *stay in place*
 when the date already falls on it (same semantics as the C# implementation).
 
@@ -111,7 +117,7 @@ _TOKEN_RE = re.compile(
     r"""\s+
       | (?P<number>[0-9]+)
       | (?P<ident>[A-Z][A-Z0-9_$\#]*)
-      | (?P<symbol>>>|<<|\|\||[()\[\]:?|+\-*])
+      | (?P<symbol>>>|<<|\|\||[()\[\]:;?|+\-*])
     """,
     re.VERBOSE,
 )
@@ -229,8 +235,22 @@ class _Parser:
             raise RuleSyntaxError(self.source, f"unexpected token {self.peek().text!r}")
         return node
 
-    def parse_observed_script(self) -> tuple[Union[frozenset, None], _Node]:
-        """Return (weekday condition or None, expression over the input date)."""
+    def parse_observed_script(self) -> List[tuple]:
+        """Return ``[(condition, expression), ...]`` clauses.
+
+        Each clause is a weekday condition (or ``None`` for unconditional)
+        and an expression over the input date; clauses are separated by
+        ``;`` and the first matching one applies.
+        """
+        clauses = [self.parse_observed_clause()]
+        while (token := self.peek()) is not None and token.kind == ";":
+            self.next()
+            clauses.append(self.parse_observed_clause())
+        if not self.at_end():
+            raise RuleSyntaxError(self.source, f"unexpected token {self.peek().text!r}")
+        return clauses
+
+    def parse_observed_clause(self) -> tuple:
         condition = None
         token = self.peek()
         if token is not None and token.kind == "?":
@@ -238,8 +258,6 @@ class _Parser:
             condition = self.parse_bool_expression()
             self.expect(":")
         node = self.parse_expression(_Current())
-        if not self.at_end():
-            raise RuleSyntaxError(self.source, f"unexpected token {self.peek().text!r}")
         return condition, node
 
     def parse_bool_expression(self) -> frozenset:
@@ -399,23 +417,26 @@ class DateRule:
 class ObservedRule:
     """A compiled ``RuleObserved``: ``evaluate(date) -> date``.
 
-    With a condition (``? (SATURDAY | SUNDAY) : >> MONDAY``) the expression
-    only applies when the input date falls on one of the listed weekdays;
-    otherwise the date is returned unchanged.
+    Each clause (``? (SATURDAY | SUNDAY) : >> MONDAY``) applies its
+    expression when the input date falls on one of the listed weekdays; the
+    first matching clause wins, and the date is returned unchanged when none
+    matches.
     """
 
-    def __init__(self, source: str, condition: Union[frozenset, None], ast: _Node):
+    def __init__(self, source: str, clauses: List[tuple]):
         self.source = source
-        self._condition = condition
-        self._ast = ast
+        self._clauses = clauses
 
     def evaluate(self, d: date) -> date:
-        if self._condition is not None and d.weekday() not in self._condition:
-            return d
-        result = _eval(self._ast, d.year, GREGORIAN, d)
-        if not isinstance(result, date):
-            raise RuleSyntaxError(self.source, "observed rule does not produce a date")
-        return result
+        for condition, ast in self._clauses:
+            if condition is None or d.weekday() in condition:
+                result = _eval(ast, d.year, GREGORIAN, d)
+                if not isinstance(result, date):
+                    raise RuleSyntaxError(
+                        self.source, "observed rule does not produce a date"
+                    )
+                return result
+        return d
 
     def __repr__(self) -> str:  # pragma: no cover
         return f"ObservedRule({self.source!r})"
@@ -428,5 +449,4 @@ def parse_date_rule(source: str) -> DateRule:
 
 @lru_cache(maxsize=None)
 def parse_observed_rule(source: str) -> ObservedRule:
-    condition, ast = _Parser(source).parse_observed_script()
-    return ObservedRule(source, condition, ast)
+    return ObservedRule(source, _Parser(source).parse_observed_script())

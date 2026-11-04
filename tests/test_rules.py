@@ -80,6 +80,30 @@ def test_observed_friday_saturday_weekend():
     assert rule.evaluate(date(2021, 1, 1)) == date(2021, 1, 2)
 
 
+def test_observed_multi_clause_us_style():
+    """Asymmetric substitute rule: Saturday -> preceding Friday, Sunday -> Monday."""
+    rule = parse_observed_rule("? SATURDAY : << FRIDAY ; ? SUNDAY : >> MONDAY")
+    assert rule.evaluate(date(2021, 7, 3)) == date(2021, 7, 2)   # saturday -> friday
+    assert rule.evaluate(date(2021, 7, 4)) == date(2021, 7, 5)   # sunday -> monday
+    assert rule.evaluate(date(2021, 7, 5)) == date(2021, 7, 5)   # monday unchanged
+
+
+def test_observed_multi_clause_uk_boxing_day():
+    """Substitute day skipping the other holiday's substitute."""
+    rule = parse_observed_rule("? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY")
+    # Boxing Day 2020: Saturday -> Monday 28 December
+    assert rule.evaluate(date(2020, 12, 26)) == date(2020, 12, 28)
+    # Boxing Day 2021: Sunday -> Tuesday 28 December
+    assert rule.evaluate(date(2021, 12, 26)) == date(2021, 12, 28)
+    # Boxing Day 2022: Monday, unchanged
+    assert rule.evaluate(date(2022, 12, 26)) == date(2022, 12, 26)
+
+
+def test_observed_first_matching_clause_wins():
+    rule = parse_observed_rule("? SUNDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY")
+    assert rule.evaluate(date(2021, 1, 3)) == date(2021, 1, 4)
+
+
 def test_register_function():
     register_function("MIDSUMMER", lambda year: [date(year, 6, 24)])
     assert "MIDSUMMER" in registered_functions()
