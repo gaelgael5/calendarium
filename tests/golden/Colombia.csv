@@ -1,0 +1,59 @@
+# Calendarium golden snapshot -- human-reviewed reference output
+# country: Colombia
+# years: 2024,2025,2026
+# regenerate: python scripts/update_golden.py Colombia
+date;name;observed;free;regions
+2024-01-01;New Year's Day;2024-01-01;true;
+2024-01-06;Epiphany;2024-01-08;true;
+2024-03-19;St. Joseph's Day;2024-03-25;true;
+2024-03-28;Maundy Thursday;2024-03-28;true;
+2024-03-29;Good Friday;2024-03-29;true;
+2024-05-01;Labour Day;2024-05-01;true;
+2024-05-13;Ascension;2024-05-13;true;
+2024-06-03;Corpus Christi;2024-06-03;true;
+2024-06-10;Sacred Heart;2024-06-10;true;
+2024-06-29;St. Peter and St. Paul;2024-07-01;true;
+2024-07-20;Independence Day;2024-07-20;true;
+2024-08-07;Battle of Boyaca;2024-08-07;true;
+2024-08-15;Assumption;2024-08-19;true;
+2024-10-12;Race Day;2024-10-14;true;
+2024-11-01;All Saints' Day;2024-11-04;true;
+2024-11-11;Independence of Cartagena;2024-11-11;true;
+2024-12-08;Immaculate Conception;2024-12-08;true;
+2024-12-25;Christmas Day;2024-12-25;true;
+2025-01-01;New Year's Day;2025-01-01;true;
+2025-01-06;Epiphany;2025-01-06;true;
+2025-03-19;St. Joseph's Day;2025-03-24;true;
+2025-04-17;Maundy Thursday;2025-04-17;true;
+2025-04-18;Good Friday;2025-04-18;true;
+2025-05-01;Labour Day;2025-05-01;true;
+2025-06-02;Ascension;2025-06-02;true;
+2025-06-23;Corpus Christi;2025-06-23;true;
+2025-06-29;St. Peter and St. Paul;2025-06-30;true;
+2025-06-30;Sacred Heart;2025-06-30;true;
+2025-07-20;Independence Day;2025-07-20;true;
+2025-08-07;Battle of Boyaca;2025-08-07;true;
+2025-08-15;Assumption;2025-08-18;true;
+2025-10-12;Race Day;2025-10-13;true;
+2025-11-01;All Saints' Day;2025-11-03;true;
+2025-11-11;Independence of Cartagena;2025-11-17;true;
+2025-12-08;Immaculate Conception;2025-12-08;true;
+2025-12-25;Christmas Day;2025-12-25;true;
+2026-01-01;New Year's Day;2026-01-01;true;
+2026-01-06;Epiphany;2026-01-12;true;
+2026-03-19;St. Joseph's Day;2026-03-23;true;
+2026-04-02;Maundy Thursday;2026-04-02;true;
+2026-04-03;Good Friday;2026-04-03;true;
+2026-05-01;Labour Day;2026-05-01;true;
+2026-05-18;Ascension;2026-05-18;true;
+2026-06-08;Corpus Christi;2026-06-08;true;
+2026-06-15;Sacred Heart;2026-06-15;true;
+2026-06-29;St. Peter and St. Paul;2026-06-29;true;
+2026-07-20;Independence Day;2026-07-20;true;
+2026-08-07;Battle of Boyaca;2026-08-07;true;
+2026-08-15;Assumption;2026-08-17;true;
+2026-10-12;Race Day;2026-10-12;true;
+2026-11-01;All Saints' Day;2026-11-02;true;
+2026-11-11;Independence of Cartagena;2026-11-16;true;
+2026-12-08;Immaculate Conception;2026-12-08;true;
+2026-12-25;Christmas Day;2026-12-25;true;

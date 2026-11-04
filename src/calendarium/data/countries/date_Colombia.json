@@ -1,0 +1,252 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Colombia",
+  "Culture": "es-CO",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Año Nuevo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Epiphany",
+      "RuleDate": "1-6",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY | THURSDAY | FRIDAY | SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de los Reyes Magos"
+        }
+      ],
+      "Tags": [
+        "Ley Emiliani"
+      ]
+    },
+    {
+      "Name": "St. Joseph's Day",
+      "RuleDate": "3-19",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY | THURSDAY | FRIDAY | SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de San José"
+        }
+      ],
+      "Tags": [
+        "Ley Emiliani"
+      ]
+    },
+    {
+      "Name": "Maundy Thursday",
+      "RuleDate": "([EASTER]) - 3",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Jueves Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Viernes Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día del Trabajo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Ascension",
+      "RuleDate": "([EASTER]) + 43",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Ascensión del Señor"
+        }
+      ],
+      "Tags": [
+        "observed the Monday six weeks after Easter"
+      ]
+    },
+    {
+      "Name": "Corpus Christi",
+      "RuleDate": "([EASTER]) + 64",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Corpus Christi"
+        }
+      ],
+      "Tags": [
+        "observed on Monday"
+      ]
+    },
+    {
+      "Name": "Sacred Heart",
+      "RuleDate": "([EASTER]) + 71",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Sagrado Corazón de Jesús"
+        }
+      ],
+      "Tags": [
+        "observed on Monday"
+      ]
+    },
+    {
+      "Name": "St. Peter and St. Paul",
+      "RuleDate": "6-29",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY | THURSDAY | FRIDAY | SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "San Pedro y San Pablo"
+        }
+      ],
+      "Tags": [
+        "Ley Emiliani"
+      ]
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "7-20",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Independencia"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Battle of Boyaca",
+      "RuleDate": "8-7",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Batalla de Boyacá"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Assumption",
+      "RuleDate": "8-15",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY | THURSDAY | FRIDAY | SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Asunción de la Virgen"
+        }
+      ],
+      "Tags": [
+        "Ley Emiliani"
+      ]
+    },
+    {
+      "Name": "Race Day",
+      "RuleDate": "10-12",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY | THURSDAY | FRIDAY | SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Raza"
+        }
+      ],
+      "Tags": [
+        "Ley Emiliani"
+      ]
+    },
+    {
+      "Name": "All Saints' Day",
+      "RuleDate": "11-1",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY | THURSDAY | FRIDAY | SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Todos los Santos"
+        }
+      ],
+      "Tags": [
+        "Ley Emiliani"
+      ]
+    },
+    {
+      "Name": "Independence of Cartagena",
+      "RuleDate": "11-11",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY | THURSDAY | FRIDAY | SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Independencia de Cartagena"
+        }
+      ],
+      "Tags": [
+        "Ley Emiliani"
+      ]
+    },
+    {
+      "Name": "Immaculate Conception",
+      "RuleDate": "12-8",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Inmaculada Concepción"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Navidad"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}
