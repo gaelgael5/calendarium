@@ -1,0 +1,144 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Trinidad_and_Tobago",
+  "Culture": "en-TT",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Carnival Monday",
+      "RuleDate": "([EASTER]) - 48",
+      "Free": false,
+      "Translations": [],
+      "Tags": [
+        "customary, not a statutory holiday"
+      ]
+    },
+    {
+      "Name": "Carnival Tuesday",
+      "RuleDate": "([EASTER]) - 47",
+      "Free": false,
+      "Translations": [],
+      "Tags": [
+        "customary, not a statutory holiday"
+      ]
+    },
+    {
+      "Name": "Spiritual Baptist Liberation Day",
+      "RuleDate": "3-30",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([EASTER]) + 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Indian Arrival Day",
+      "RuleDate": "5-30",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Corpus Christi",
+      "RuleDate": "([EASTER]) + 60",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "6-19",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Emancipation Day",
+      "RuleDate": "8-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "8-31",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Republic Day",
+      "RuleDate": "9-24",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Divali",
+      "RuleDate": "[DEEPAVALI]",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "gazetted annually; table encoded through 2026"
+      ],
+      "YearStart": 2020,
+      "YearEnd": 2026
+    },
+    {
+      "Name": "Eid-ul-Fitr",
+      "RuleDate": "10-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "gazetted",
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "RuleObserved": "? SUNDAY : + 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Boxing Day",
+      "RuleDate": "12-26",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}
