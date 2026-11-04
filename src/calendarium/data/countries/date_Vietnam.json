@@ -1,0 +1,96 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Vietnam",
+  "Culture": "vi-VN",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Tet Eve",
+      "RuleDate": "(1-1) - 1",
+      "Free": true,
+      "Calendar": "VietnameseLunisolar",
+      "Translations": [],
+      "Tags": [
+        "five-day block; exact arrangement set by annual decree"
+      ]
+    },
+    {
+      "Name": "Tet",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Calendar": "VietnameseLunisolar",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Tet 2nd Day",
+      "RuleDate": "1-2",
+      "Free": true,
+      "Calendar": "VietnameseLunisolar",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Tet 3rd Day",
+      "RuleDate": "1-3",
+      "Free": true,
+      "Calendar": "VietnameseLunisolar",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Tet 4th Day",
+      "RuleDate": "1-4",
+      "Free": true,
+      "Calendar": "VietnameseLunisolar",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Hung Kings' Festival",
+      "RuleDate": "3-10",
+      "Free": true,
+      "Calendar": "VietnameseLunisolar",
+      "Translations": [],
+      "Tags": [
+        "public holiday since 2007"
+      ],
+      "YearStart": 2007
+    },
+    {
+      "Name": "Reunification Day",
+      "RuleDate": "4-30",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "National Day",
+      "RuleDate": "9-2",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "plus one adjacent day set by annual decree"
+      ]
+    }
+  ]
+}
