@@ -1,0 +1,32 @@
+# Calendarium golden snapshot -- human-reviewed reference output
+# country: Australia
+# years: 2024,2025,2026
+# regenerate: python scripts/update_golden.py Australia
+date;name;observed;free;regions
+2024-01-01;New Year's Day;2024-01-01;true;
+2024-01-26;Australia Day;2024-01-26;true;
+2024-03-29;Good Friday;2024-03-29;true;
+2024-03-30;Easter Saturday;2024-03-30;false;
+2024-04-01;Easter Monday;2024-04-01;true;
+2024-04-25;Anzac Day;2024-04-25;true;
+2024-06-10;King's Birthday;2024-06-10;false;
+2024-12-25;Christmas Day;2024-12-25;true;
+2024-12-26;Boxing Day;2024-12-26;true;
+2025-01-01;New Year's Day;2025-01-01;true;
+2025-01-26;Australia Day;2025-01-27;true;
+2025-04-18;Good Friday;2025-04-18;true;
+2025-04-19;Easter Saturday;2025-04-19;false;
+2025-04-21;Easter Monday;2025-04-21;true;
+2025-04-25;Anzac Day;2025-04-25;true;
+2025-06-09;King's Birthday;2025-06-09;false;
+2025-12-25;Christmas Day;2025-12-25;true;
+2025-12-26;Boxing Day;2025-12-26;true;
+2026-01-01;New Year's Day;2026-01-01;true;
+2026-01-26;Australia Day;2026-01-26;true;
+2026-04-03;Good Friday;2026-04-03;true;
+2026-04-04;Easter Saturday;2026-04-04;false;
+2026-04-06;Easter Monday;2026-04-06;true;
+2026-04-25;Anzac Day;2026-04-25;true;
+2026-06-08;King's Birthday;2026-06-08;false;
+2026-12-25;Christmas Day;2026-12-25;true;
+2026-12-26;Boxing Day;2026-12-28;true;
