@@ -1,0 +1,127 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Albania",
+  "Culture": "sq-AL",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "New Year 2nd Day",
+      "RuleDate": "1-2",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Summer Day",
+      "RuleDate": "3-14",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Nevruz",
+      "RuleDate": "3-22",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Catholic Easter",
+      "RuleDate": "[EASTER]",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Orthodox Easter",
+      "RuleDate": "[ORTHODOX_EASTER]",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Eid al-Fitr",
+      "RuleDate": "10-1",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Adha",
+      "RuleDate": "12-10",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Mother Teresa Day",
+      "RuleDate": "9-5",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "11-28",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Liberation Day",
+      "RuleDate": "11-29",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "National Youth Day",
+      "RuleDate": "12-8",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}
