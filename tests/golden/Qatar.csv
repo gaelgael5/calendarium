@@ -1,0 +1,29 @@
+# Calendarium golden snapshot -- human-reviewed reference output
+# country: Qatar
+# years: 2024,2025,2026
+# regenerate: python scripts/update_golden.py Qatar
+date;name;observed;free;regions
+2024-02-13;National Sport Day;2024-02-13;true;
+2024-04-10;Eid al-Fitr;2024-04-10;true;
+2024-04-11;Eid al-Fitr 2nd Day;2024-04-11;true;
+2024-04-12;Eid al-Fitr 3rd Day;2024-04-12;true;
+2024-06-17;Eid al-Adha;2024-06-17;true;
+2024-06-18;Eid al-Adha 2nd Day;2024-06-18;true;
+2024-06-19;Eid al-Adha 3rd Day;2024-06-19;true;
+2024-12-18;National Day;2024-12-18;true;
+2025-02-11;National Sport Day;2025-02-11;true;
+2025-03-31;Eid al-Fitr;2025-03-31;true;
+2025-04-01;Eid al-Fitr 2nd Day;2025-04-01;true;
+2025-04-02;Eid al-Fitr 3rd Day;2025-04-02;true;
+2025-06-07;Eid al-Adha;2025-06-07;true;
+2025-06-08;Eid al-Adha 2nd Day;2025-06-08;true;
+2025-06-09;Eid al-Adha 3rd Day;2025-06-09;true;
+2025-12-18;National Day;2025-12-18;true;
+2026-02-10;National Sport Day;2026-02-10;true;
+2026-03-20;Eid al-Fitr;2026-03-20;true;
+2026-03-21;Eid al-Fitr 2nd Day;2026-03-21;true;
+2026-03-22;Eid al-Fitr 3rd Day;2026-03-22;true;
+2026-05-27;Eid al-Adha;2026-05-27;true;
+2026-05-28;Eid al-Adha 2nd Day;2026-05-28;true;
+2026-05-29;Eid al-Adha 3rd Day;2026-05-29;true;
+2026-12-18;National Day;2026-12-18;true;

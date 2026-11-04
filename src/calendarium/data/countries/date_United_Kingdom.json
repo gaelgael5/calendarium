@@ -1,0 +1,75 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "United_Kingdom",
+  "Culture": "en-GB",
+  "Calendar": "Gregorian",
+  "Url": "https://www.gov.uk/bank-holidays",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([EASTER]) + 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Early May Bank Holiday",
+      "RuleDate": "(5-1) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "first Monday of May"
+      ]
+    },
+    {
+      "Name": "Spring Bank Holiday",
+      "RuleDate": "(5-31) << MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "last Monday of May"
+      ]
+    },
+    {
+      "Name": "Summer Bank Holiday",
+      "RuleDate": "(8-31) << MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "last Monday of August"
+      ]
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Boxing Day",
+      "RuleDate": "12-26",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}

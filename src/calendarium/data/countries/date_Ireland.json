@@ -1,0 +1,95 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Ireland",
+  "Culture": "en-IE",
+  "Calendar": "Gregorian",
+  "Url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/public-holidays/",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "St Brigid's Day",
+      "RuleDate": "(2-1) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "first Monday of February (or 1 Feb when a Friday; not expressible)"
+      ],
+      "YearStart": 2023
+    },
+    {
+      "Name": "St Patrick's Day",
+      "RuleDate": "3-17",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([EASTER]) + 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "May Day",
+      "RuleDate": "(5-1) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "first Monday of May"
+      ]
+    },
+    {
+      "Name": "June Bank Holiday",
+      "RuleDate": "(6-1) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "first Monday of June"
+      ]
+    },
+    {
+      "Name": "August Bank Holiday",
+      "RuleDate": "(8-1) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "first Monday of August"
+      ]
+    },
+    {
+      "Name": "October Bank Holiday",
+      "RuleDate": "(10-31) << MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "last Monday of October"
+      ]
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "St Stephen's Day",
+      "RuleDate": "12-26",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}

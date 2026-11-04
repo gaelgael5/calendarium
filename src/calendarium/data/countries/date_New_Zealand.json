@@ -1,0 +1,104 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "New_Zealand",
+  "Culture": "en-NZ",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Day after New Year's Day",
+      "RuleDate": "1-2",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Waitangi Day",
+      "RuleDate": "2-6",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "Mondayised since 2014"
+      ]
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([EASTER]) + 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Anzac Day",
+      "RuleDate": "4-25",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "Mondayised since 2014"
+      ]
+    },
+    {
+      "Name": "King's Birthday",
+      "RuleDate": "(6-1) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "first Monday of June"
+      ]
+    },
+    {
+      "Name": "Matariki",
+      "RuleDate": "[MATARIKI]",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "gazetted dates; table encoded through 2030"
+      ],
+      "YearStart": 2022,
+      "YearEnd": 2030
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "(10-22) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "fourth Monday of October"
+      ]
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Boxing Day",
+      "RuleDate": "12-26",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}

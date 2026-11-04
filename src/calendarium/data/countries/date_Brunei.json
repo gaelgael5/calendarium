@@ -1,0 +1,157 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Brunei",
+  "Culture": "ms-BN",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? FRIDAY : >> SATURDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Chinese New Year",
+      "RuleDate": "1-1",
+      "RuleObserved": "? FRIDAY : >> SATURDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "National Day",
+      "RuleDate": "2-23",
+      "RuleObserved": "? FRIDAY : >> SATURDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Armed Forces Day",
+      "RuleDate": "5-31",
+      "RuleObserved": "? FRIDAY : >> SATURDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Sultan's Birthday",
+      "RuleDate": "7-15",
+      "RuleObserved": "? FRIDAY : >> SATURDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "RuleObserved": "? FRIDAY : >> SATURDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Isra and Miraj",
+      "RuleDate": "7-27",
+      "RuleObserved": "? FRIDAY : >> SATURDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "First Day of Ramadan",
+      "RuleDate": "9-1",
+      "RuleObserved": "? FRIDAY : >> SATURDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Nuzul Al-Quran",
+      "RuleDate": "9-17",
+      "RuleObserved": "? FRIDAY : >> SATURDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Hari Raya Aidilfitri",
+      "RuleDate": "10-1",
+      "RuleObserved": "? FRIDAY : >> SATURDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Hari Raya Aidilfitri 2nd Day",
+      "RuleDate": "10-2",
+      "RuleObserved": "? FRIDAY : >> SATURDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Hari Raya Aidilfitri 3rd Day",
+      "RuleDate": "10-3",
+      "RuleObserved": "? FRIDAY : >> SATURDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Hari Raya Aidiladha",
+      "RuleDate": "12-10",
+      "RuleObserved": "? FRIDAY : >> SATURDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Islamic New Year",
+      "RuleDate": "1-1",
+      "RuleObserved": "? FRIDAY : >> SATURDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Prophet Muhammad's Birthday",
+      "RuleDate": "3-12",
+      "RuleObserved": "? FRIDAY : >> SATURDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    }
+  ]
+}

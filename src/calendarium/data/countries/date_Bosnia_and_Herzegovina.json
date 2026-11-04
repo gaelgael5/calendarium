@@ -1,0 +1,143 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Bosnia_and_Herzegovina",
+  "Culture": "bs-BA",
+  "Calendar": "Gregorian",
+  "Regions": [
+    {
+      "Key": "FBiH",
+      "Periods": [
+        {
+          "Name": "Independence Day",
+          "RuleDate": "3-1",
+          "Free": true,
+          "Translations": [],
+          "Tags": []
+        },
+        {
+          "Name": "Statehood Day",
+          "RuleDate": "11-25",
+          "Free": true,
+          "Translations": [],
+          "Tags": []
+        },
+        {
+          "Name": "Catholic Christmas",
+          "RuleDate": "12-25",
+          "Free": false,
+          "Translations": [],
+          "Tags": [
+            "for Catholic believers"
+          ]
+        },
+        {
+          "Name": "Orthodox Christmas",
+          "RuleDate": "1-7",
+          "Free": false,
+          "Translations": [],
+          "Tags": [
+            "for Orthodox believers"
+          ]
+        },
+        {
+          "Name": "Eid al-Fitr",
+          "RuleDate": "10-1",
+          "Free": false,
+          "Calendar": "Hijri",
+          "Translations": [],
+          "Tags": [
+            "for Muslim believers",
+            "tabular Islamic calendar; may differ by one day"
+          ]
+        },
+        {
+          "Name": "Eid al-Adha",
+          "RuleDate": "12-10",
+          "Free": false,
+          "Calendar": "Hijri",
+          "Translations": [],
+          "Tags": [
+            "for Muslim believers",
+            "tabular Islamic calendar; may differ by one day"
+          ]
+        }
+      ],
+      "From": null
+    },
+    {
+      "Key": "RS",
+      "Periods": [
+        {
+          "Name": "Orthodox Christmas",
+          "RuleDate": "1-7",
+          "Free": true,
+          "Translations": [],
+          "Tags": []
+        },
+        {
+          "Name": "Day of Republika Srpska",
+          "RuleDate": "1-9",
+          "Free": true,
+          "Translations": [],
+          "Tags": [
+            "ruled unconstitutional, still observed"
+          ]
+        },
+        {
+          "Name": "Victory Day",
+          "RuleDate": "5-9",
+          "Free": true,
+          "Translations": [],
+          "Tags": []
+        },
+        {
+          "Name": "Dayton Agreement Day",
+          "RuleDate": "11-21",
+          "Free": true,
+          "Translations": [],
+          "Tags": []
+        },
+        {
+          "Name": "Orthodox Good Friday",
+          "RuleDate": "([ORTHODOX_EASTER]) - 2",
+          "Free": false,
+          "Translations": [],
+          "Tags": [
+            "for Orthodox believers"
+          ]
+        }
+      ],
+      "From": null
+    }
+  ],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "New Year 2nd Day",
+      "RuleDate": "1-2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day 2nd Day",
+      "RuleDate": "5-2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}

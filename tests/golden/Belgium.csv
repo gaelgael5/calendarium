@@ -1,0 +1,59 @@
+# Calendarium golden snapshot -- human-reviewed reference output
+# country: Belgium
+# years: 2024,2025,2026
+# regenerate: python scripts/update_golden.py Belgium
+date;name;observed;free;regions
+2024-01-01;New Year's Day;2024-01-01;true;
+2024-01-06;Epiphany;2024-01-06;true;
+2024-03-29;Good Friday;2024-03-29;true;
+2024-03-31;Easter Day;2024-03-31;true;
+2024-04-01;Easter Monday;2024-04-01;true;
+2024-05-01;Labor Day;2024-05-01;true;
+2024-05-09;Ascension;2024-05-09;true;
+2024-05-19;Pentecost;2024-05-19;true;
+2024-05-20;Pentecost Monday;2024-05-20;true;
+2024-07-21;National Day;2024-07-21;true;
+2024-08-15;Assumption;2024-08-15;true;
+2024-11-01;All Saints' Day;2024-11-01;true;
+2024-11-02;All Souls' Day;2024-11-02;true;
+2024-11-11;Armistice Day 1918;2024-11-11;true;
+2024-11-15;King's Feast;2024-11-15;true;
+2024-12-06;St. Nicholas;2024-12-06;true;
+2024-12-25;Christmas Day;2024-12-25;true;
+2024-12-31;New Year's Eve;2024-12-31;true;
+2025-01-01;New Year's Day;2025-01-01;true;
+2025-01-06;Epiphany;2025-01-06;true;
+2025-04-18;Good Friday;2025-04-18;true;
+2025-04-20;Easter Day;2025-04-20;true;
+2025-04-21;Easter Monday;2025-04-21;true;
+2025-05-01;Labor Day;2025-05-01;true;
+2025-05-29;Ascension;2025-05-29;true;
+2025-06-08;Pentecost;2025-06-08;true;
+2025-06-09;Pentecost Monday;2025-06-09;true;
+2025-07-21;National Day;2025-07-21;true;
+2025-08-15;Assumption;2025-08-15;true;
+2025-11-01;All Saints' Day;2025-11-01;true;
+2025-11-02;All Souls' Day;2025-11-02;true;
+2025-11-11;Armistice Day 1918;2025-11-11;true;
+2025-11-15;King's Feast;2025-11-15;true;
+2025-12-06;St. Nicholas;2025-12-06;true;
+2025-12-25;Christmas Day;2025-12-25;true;
+2025-12-31;New Year's Eve;2025-12-31;true;
+2026-01-01;New Year's Day;2026-01-01;true;
+2026-01-06;Epiphany;2026-01-06;true;
+2026-04-03;Good Friday;2026-04-03;true;
+2026-04-05;Easter Day;2026-04-05;true;
+2026-04-06;Easter Monday;2026-04-06;true;
+2026-05-01;Labor Day;2026-05-01;true;
+2026-05-14;Ascension;2026-05-14;true;
+2026-05-24;Pentecost;2026-05-24;true;
+2026-05-25;Pentecost Monday;2026-05-25;true;
+2026-07-21;National Day;2026-07-21;true;
+2026-08-15;Assumption;2026-08-15;true;
+2026-11-01;All Saints' Day;2026-11-01;true;
+2026-11-02;All Souls' Day;2026-11-02;true;
+2026-11-11;Armistice Day 1918;2026-11-11;true;
+2026-11-15;King's Feast;2026-11-15;true;
+2026-12-06;St. Nicholas;2026-12-06;true;
+2026-12-25;Christmas Day;2026-12-25;true;
+2026-12-31;New Year's Eve;2026-12-31;true;

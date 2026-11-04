@@ -1,0 +1,185 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Latvia",
+  "Culture": "lv-LV",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Latvian",
+          "Name": "Jaunais gads"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Latvian",
+          "Name": "Lielā piektdiena"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Sunday",
+      "RuleDate": "[EASTER]",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Latvian",
+          "Name": "Lieldienas"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([EASTER]) + 1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Latvian",
+          "Name": "Otrās Lieldienas"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Latvian",
+          "Name": "Darba svētki"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Restoration of Independence Day",
+      "RuleDate": "5-4",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Latvian",
+          "Name": "Neatkarības atjaunošanas diena"
+        }
+      ],
+      "Tags": [
+        "moved to Monday from a weekend"
+      ]
+    },
+    {
+      "Name": "Mother's Day",
+      "RuleDate": "(5-8) >> SUNDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Latvian",
+          "Name": "Mātes diena"
+        }
+      ],
+      "Tags": [
+        "second Sunday of May"
+      ]
+    },
+    {
+      "Name": "Midsummer Eve",
+      "RuleDate": "6-23",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Latvian",
+          "Name": "Līgo diena"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "St. John's Day",
+      "RuleDate": "6-24",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Latvian",
+          "Name": "Jāņi"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Proclamation Day",
+      "RuleDate": "11-18",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Latvian",
+          "Name": "Latvijas Republikas proklamēšanas diena"
+        }
+      ],
+      "Tags": [
+        "moved to Monday from a weekend"
+      ]
+    },
+    {
+      "Name": "Christmas Eve",
+      "RuleDate": "12-24",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Latvian",
+          "Name": "Ziemassvētku vakars"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Latvian",
+          "Name": "Ziemassvētki"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas 2nd Day",
+      "RuleDate": "12-26",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Latvian",
+          "Name": "Otrie Ziemassvētki"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "New Year's Eve",
+      "RuleDate": "12-31",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Latvian",
+          "Name": "Vecgada diena"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}

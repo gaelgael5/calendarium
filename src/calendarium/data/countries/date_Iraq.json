@@ -1,0 +1,181 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Iraq",
+  "Culture": "ar-IQ",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Army Day",
+      "RuleDate": "1-6",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Nowruz",
+      "RuleDate": "3-21",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "FAO Liberation Day",
+      "RuleDate": "4-9",
+      "Free": false,
+      "Translations": [],
+      "Tags": [
+        "fall of Baghdad; regional observance"
+      ]
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "National Day",
+      "RuleDate": "10-3",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Victory over Daesh Day",
+      "RuleDate": "12-10",
+      "Free": true,
+      "Translations": [],
+      "Tags": [],
+      "YearStart": 2017
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "permanent public holiday since 2018"
+      ],
+      "YearStart": 2018
+    },
+    {
+      "Name": "Islamic New Year",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Tasua",
+      "RuleDate": "1-9",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Ashura",
+      "RuleDate": "1-10",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Prophet's Birthday",
+      "RuleDate": "3-12",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Fitr",
+      "RuleDate": "10-1",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Fitr 2nd Day",
+      "RuleDate": "10-2",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Fitr 3rd Day",
+      "RuleDate": "10-3",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Adha",
+      "RuleDate": "12-10",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Adha 2nd Day",
+      "RuleDate": "12-11",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Adha 3rd Day",
+      "RuleDate": "12-12",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Adha 4th Day",
+      "RuleDate": "12-13",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    }
+  ]
+}

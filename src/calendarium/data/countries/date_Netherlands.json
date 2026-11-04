@@ -1,0 +1,171 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Netherlands",
+  "Culture": "nl-NL",
+  "Calendar": "Gregorian",
+  "Url": "https://www.rijksoverheid.nl/onderwerpen/schoolvakanties/vraag-en-antwoord/officiele-feestdagen",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Dutch",
+          "Name": "Nieuwjaarsdag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Dutch",
+          "Name": "Goede Vrijdag"
+        }
+      ],
+      "Tags": [
+        "day off for government and schools, not all sectors"
+      ]
+    },
+    {
+      "Name": "Easter Sunday",
+      "RuleDate": "[EASTER]",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Dutch",
+          "Name": "Eerste Paasdag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([EASTER]) + 1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Dutch",
+          "Name": "Tweede Paasdag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "King's Day",
+      "RuleDate": "4-27",
+      "RuleObserved": "? SUNDAY : - 1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Dutch",
+          "Name": "Koningsdag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Remembrance Day",
+      "RuleDate": "5-4",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Dutch",
+          "Name": "Dodenherdenking"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Liberation Day",
+      "RuleDate": "5-5",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Dutch",
+          "Name": "Bevrijdingsdag"
+        }
+      ],
+      "Tags": [
+        "day off for most sectors every 5 years (lustrum)"
+      ]
+    },
+    {
+      "Name": "Ascension",
+      "RuleDate": "([EASTER]) + 39",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Dutch",
+          "Name": "Hemelvaartsdag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Whit Sunday",
+      "RuleDate": "([EASTER]) + 49",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Dutch",
+          "Name": "Eerste Pinksterdag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Whit Monday",
+      "RuleDate": "([EASTER]) + 50",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Dutch",
+          "Name": "Tweede Pinksterdag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "St. Nicholas' Eve",
+      "RuleDate": "12-5",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Dutch",
+          "Name": "Sinterklaasavond"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Dutch",
+          "Name": "Eerste Kerstdag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Boxing Day",
+      "RuleDate": "12-26",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Dutch",
+          "Name": "Tweede Kerstdag"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}

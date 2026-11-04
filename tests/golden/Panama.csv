@@ -1,0 +1,44 @@
+# Calendarium golden snapshot -- human-reviewed reference output
+# country: Panama
+# years: 2024,2025,2026
+# regenerate: python scripts/update_golden.py Panama
+date;name;observed;free;regions
+2024-01-01;New Year's Day;2024-01-01;true;
+2024-01-09;Martyrs' Day;2024-01-09;true;
+2024-02-12;Carnival Monday;2024-02-12;false;
+2024-02-13;Carnival Tuesday;2024-02-13;true;
+2024-03-29;Good Friday;2024-03-29;true;
+2024-05-01;Labour Day;2024-05-01;true;
+2024-11-03;Separation from Colombia;2024-11-04;true;
+2024-11-04;Flag Day;2024-11-04;true;
+2024-11-05;Colon Day;2024-11-05;true;
+2024-11-10;Shout in Villa de los Santos;2024-11-11;true;
+2024-11-28;Independence from Spain;2024-11-28;true;
+2024-12-08;Mother's Day;2024-12-09;true;
+2024-12-25;Christmas Day;2024-12-25;true;
+2025-01-01;New Year's Day;2025-01-01;true;
+2025-01-09;Martyrs' Day;2025-01-09;true;
+2025-03-03;Carnival Monday;2025-03-03;false;
+2025-03-04;Carnival Tuesday;2025-03-04;true;
+2025-04-18;Good Friday;2025-04-18;true;
+2025-05-01;Labour Day;2025-05-01;true;
+2025-11-03;Separation from Colombia;2025-11-03;true;
+2025-11-04;Flag Day;2025-11-04;true;
+2025-11-05;Colon Day;2025-11-05;true;
+2025-11-10;Shout in Villa de los Santos;2025-11-10;true;
+2025-11-28;Independence from Spain;2025-11-28;true;
+2025-12-08;Mother's Day;2025-12-08;true;
+2025-12-25;Christmas Day;2025-12-25;true;
+2026-01-01;New Year's Day;2026-01-01;true;
+2026-01-09;Martyrs' Day;2026-01-09;true;
+2026-02-16;Carnival Monday;2026-02-16;false;
+2026-02-17;Carnival Tuesday;2026-02-17;true;
+2026-04-03;Good Friday;2026-04-03;true;
+2026-05-01;Labour Day;2026-05-01;true;
+2026-11-03;Separation from Colombia;2026-11-03;true;
+2026-11-04;Flag Day;2026-11-04;true;
+2026-11-05;Colon Day;2026-11-05;true;
+2026-11-10;Shout in Villa de los Santos;2026-11-10;true;
+2026-11-28;Independence from Spain;2026-11-28;true;
+2026-12-08;Mother's Day;2026-12-08;true;
+2026-12-25;Christmas Day;2026-12-25;true;

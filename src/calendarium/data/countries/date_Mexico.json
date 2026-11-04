@@ -1,0 +1,154 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Mexico",
+  "Culture": "es-MX",
+  "Calendar": "Gregorian",
+  "Url": "https://www.gob.mx/",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Año Nuevo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Constitution Day",
+      "RuleDate": "2-5",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Constitución"
+        }
+      ],
+      "Tags": [],
+      "YearEnd": 2005
+    },
+    {
+      "Name": "Constitution Day",
+      "RuleDate": "(2-1) >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Constitución"
+        }
+      ],
+      "Tags": [
+        "first Monday of February since 2006"
+      ],
+      "YearStart": 2006
+    },
+    {
+      "Name": "Benito Juarez's Birthday",
+      "RuleDate": "3-21",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Natalicio de Benito Juárez"
+        }
+      ],
+      "Tags": [],
+      "YearEnd": 2005
+    },
+    {
+      "Name": "Benito Juarez's Birthday",
+      "RuleDate": "(3-15) >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Natalicio de Benito Juárez"
+        }
+      ],
+      "Tags": [
+        "third Monday of March since 2006"
+      ],
+      "YearStart": 2006
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día del Trabajo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "9-16",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Independencia"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Revolution Day",
+      "RuleDate": "11-20",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Revolución"
+        }
+      ],
+      "Tags": [],
+      "YearEnd": 2005
+    },
+    {
+      "Name": "Revolution Day",
+      "RuleDate": "(11-15) >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Revolución"
+        }
+      ],
+      "Tags": [
+        "third Monday of November since 2006"
+      ],
+      "YearStart": 2006
+    },
+    {
+      "Name": "Our Lady of Guadalupe",
+      "RuleDate": "12-12",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Virgen de Guadalupe"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Navidad"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}

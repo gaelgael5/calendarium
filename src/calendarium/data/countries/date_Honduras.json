@@ -1,0 +1,147 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Honduras",
+  "Culture": "es-HN",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Año Nuevo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Maundy Thursday",
+      "RuleDate": "([EASTER]) - 3",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Jueves Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Viernes Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Holy Saturday",
+      "RuleDate": "([EASTER]) - 1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Sábado de Gloria"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Americas Day",
+      "RuleDate": "4-14",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de las Américas"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día del Trabajo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "9-15",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Independencia"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Morazan Day",
+      "RuleDate": "(10-1) >> WEDNESDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de Morazán"
+        }
+      ],
+      "Tags": [
+        "Semana Morazánica: first Wednesday of October"
+      ]
+    },
+    {
+      "Name": "Columbus Day",
+      "RuleDate": "((10-1) >> WEDNESDAY) + 1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Raza"
+        }
+      ],
+      "Tags": [
+        "Semana Morazánica Thursday"
+      ]
+    },
+    {
+      "Name": "Armed Forces Day",
+      "RuleDate": "((10-1) >> WEDNESDAY) + 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de las Fuerzas Armadas"
+        }
+      ],
+      "Tags": [
+        "Semana Morazánica Friday"
+      ]
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Navidad"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}

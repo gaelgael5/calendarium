@@ -1,0 +1,44 @@
+# Calendarium golden snapshot -- human-reviewed reference output
+# country: Guatemala
+# years: 2024,2025,2026
+# regenerate: python scripts/update_golden.py Guatemala
+date;name;observed;free;regions
+2024-01-01;New Year's Day;2024-01-01;true;
+2024-03-28;Maundy Thursday;2024-03-28;true;
+2024-03-29;Good Friday;2024-03-29;true;
+2024-03-30;Holy Saturday;2024-03-30;true;
+2024-05-01;Labour Day;2024-05-01;true;
+2024-06-30;Army Day;2024-06-30;true;
+2024-08-15;Assumption;2024-08-15;true;
+2024-09-15;Independence Day;2024-09-15;true;
+2024-10-20;Revolution Day;2024-10-20;true;
+2024-11-01;All Saints' Day;2024-11-01;true;
+2024-12-24;Christmas Eve;2024-12-24;false;
+2024-12-25;Christmas Day;2024-12-25;true;
+2024-12-31;New Year's Eve;2024-12-31;false;
+2025-01-01;New Year's Day;2025-01-01;true;
+2025-04-17;Maundy Thursday;2025-04-17;true;
+2025-04-18;Good Friday;2025-04-18;true;
+2025-04-19;Holy Saturday;2025-04-19;true;
+2025-05-01;Labour Day;2025-05-01;true;
+2025-06-30;Army Day;2025-06-30;true;
+2025-08-15;Assumption;2025-08-15;true;
+2025-09-15;Independence Day;2025-09-15;true;
+2025-10-20;Revolution Day;2025-10-20;true;
+2025-11-01;All Saints' Day;2025-11-01;true;
+2025-12-24;Christmas Eve;2025-12-24;false;
+2025-12-25;Christmas Day;2025-12-25;true;
+2025-12-31;New Year's Eve;2025-12-31;false;
+2026-01-01;New Year's Day;2026-01-01;true;
+2026-04-02;Maundy Thursday;2026-04-02;true;
+2026-04-03;Good Friday;2026-04-03;true;
+2026-04-04;Holy Saturday;2026-04-04;true;
+2026-05-01;Labour Day;2026-05-01;true;
+2026-06-30;Army Day;2026-06-30;true;
+2026-08-15;Assumption;2026-08-15;true;
+2026-09-15;Independence Day;2026-09-15;true;
+2026-10-20;Revolution Day;2026-10-20;true;
+2026-11-01;All Saints' Day;2026-11-01;true;
+2026-12-24;Christmas Eve;2026-12-24;false;
+2026-12-25;Christmas Day;2026-12-25;true;
+2026-12-31;New Year's Eve;2026-12-31;false;

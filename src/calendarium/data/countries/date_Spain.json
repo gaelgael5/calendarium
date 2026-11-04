@@ -1,0 +1,130 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Spain",
+  "Culture": "es-ES",
+  "Calendar": "Gregorian",
+  "Url": "https://www.boe.es/",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Año Nuevo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Epiphany",
+      "RuleDate": "1-6",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Epifanía del Señor"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Viernes Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Fiesta del Trabajo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Assumption",
+      "RuleDate": "8-15",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Asunción de la Virgen"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "National Day",
+      "RuleDate": "10-12",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Fiesta Nacional de España"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "All Saints' Day",
+      "RuleDate": "11-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Todos los Santos"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Constitution Day",
+      "RuleDate": "12-6",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Constitución"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Immaculate Conception",
+      "RuleDate": "12-8",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Inmaculada Concepción"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Navidad"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}

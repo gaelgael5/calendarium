@@ -1,0 +1,56 @@
+# Calendarium golden snapshot -- human-reviewed reference output
+# country: Turkey
+# years: 2024,2025,2026
+# regenerate: python scripts/update_golden.py Turkey
+date;name;observed;free;regions
+2024-01-01;New Year's Day;2024-01-01;true;
+2024-04-08;Ramadan Feast Eve;2024-04-08;false;
+2024-04-10;Ramadan Feast;2024-04-10;true;
+2024-04-11;Ramadan Feast 2nd Day;2024-04-11;true;
+2024-04-12;Ramadan Feast 3rd Day;2024-04-12;true;
+2024-04-23;National Sovereignty and Children's Day;2024-04-23;true;
+2024-05-01;Labour and Solidarity Day;2024-05-01;true;
+2024-05-19;Ataturk Commemoration and Youth Day;2024-05-19;true;
+2024-06-16;Sacrifice Feast Eve;2024-06-16;false;
+2024-06-17;Sacrifice Feast;2024-06-17;true;
+2024-06-18;Sacrifice Feast 2nd Day;2024-06-18;true;
+2024-06-19;Sacrifice Feast 3rd Day;2024-06-19;true;
+2024-06-20;Sacrifice Feast 4th Day;2024-06-20;true;
+2024-07-15;Democracy and National Unity Day;2024-07-15;true;
+2024-08-30;Victory Day;2024-08-30;true;
+2024-10-28;Republic Day Eve;2024-10-28;false;
+2024-10-29;Republic Day;2024-10-29;true;
+2025-01-01;New Year's Day;2025-01-01;true;
+2025-03-29;Ramadan Feast Eve;2025-03-29;false;
+2025-03-31;Ramadan Feast;2025-03-31;true;
+2025-04-01;Ramadan Feast 2nd Day;2025-04-01;true;
+2025-04-02;Ramadan Feast 3rd Day;2025-04-02;true;
+2025-04-23;National Sovereignty and Children's Day;2025-04-23;true;
+2025-05-01;Labour and Solidarity Day;2025-05-01;true;
+2025-05-19;Ataturk Commemoration and Youth Day;2025-05-19;true;
+2025-06-06;Sacrifice Feast Eve;2025-06-06;false;
+2025-06-07;Sacrifice Feast;2025-06-07;true;
+2025-06-08;Sacrifice Feast 2nd Day;2025-06-08;true;
+2025-06-09;Sacrifice Feast 3rd Day;2025-06-09;true;
+2025-06-10;Sacrifice Feast 4th Day;2025-06-10;true;
+2025-07-15;Democracy and National Unity Day;2025-07-15;true;
+2025-08-30;Victory Day;2025-08-30;true;
+2025-10-28;Republic Day Eve;2025-10-28;false;
+2025-10-29;Republic Day;2025-10-29;true;
+2026-01-01;New Year's Day;2026-01-01;true;
+2026-03-18;Ramadan Feast Eve;2026-03-18;false;
+2026-03-20;Ramadan Feast;2026-03-20;true;
+2026-03-21;Ramadan Feast 2nd Day;2026-03-21;true;
+2026-03-22;Ramadan Feast 3rd Day;2026-03-22;true;
+2026-04-23;National Sovereignty and Children's Day;2026-04-23;true;
+2026-05-01;Labour and Solidarity Day;2026-05-01;true;
+2026-05-19;Ataturk Commemoration and Youth Day;2026-05-19;true;
+2026-05-26;Sacrifice Feast Eve;2026-05-26;false;
+2026-05-27;Sacrifice Feast;2026-05-27;true;
+2026-05-28;Sacrifice Feast 2nd Day;2026-05-28;true;
+2026-05-29;Sacrifice Feast 3rd Day;2026-05-29;true;
+2026-05-30;Sacrifice Feast 4th Day;2026-05-30;true;
+2026-07-15;Democracy and National Unity Day;2026-07-15;true;
+2026-08-30;Victory Day;2026-08-30;true;
+2026-10-28;Republic Day Eve;2026-10-28;false;
+2026-10-29;Republic Day;2026-10-29;true;

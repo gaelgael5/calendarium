@@ -1,0 +1,38 @@
+# Calendarium golden snapshot -- human-reviewed reference output
+# country: Macedonia_FYRO
+# years: 2024,2025,2026
+# regenerate: python scripts/update_golden.py Macedonia_FYRO
+date;name;observed;free;regions
+2024-01-01;New Year's Day;2024-01-01;true;
+2024-01-07;Orthodox Christmas;2024-01-08;true;
+2024-04-10;Eid al-Fitr;2024-04-10;true;
+2024-05-01;Labour Day;2024-05-01;true;
+2024-05-06;Easter Monday;2024-05-06;true;
+2024-05-24;Saints Cyril and Methodius Day;2024-05-24;true;
+2024-08-02;Republic Day;2024-08-02;true;
+2024-09-08;Independence Day;2024-09-09;true;
+2024-10-11;National Uprising Day;2024-10-11;true;
+2024-10-23;Revolutionary Struggle Day;2024-10-23;true;
+2024-12-08;St. Clement of Ohrid Day;2024-12-09;true;
+2025-01-01;New Year's Day;2025-01-01;true;
+2025-01-07;Orthodox Christmas;2025-01-07;true;
+2025-03-31;Eid al-Fitr;2025-03-31;true;
+2025-04-21;Easter Monday;2025-04-21;true;
+2025-05-01;Labour Day;2025-05-01;true;
+2025-05-24;Saints Cyril and Methodius Day;2025-05-24;true;
+2025-08-02;Republic Day;2025-08-02;true;
+2025-09-08;Independence Day;2025-09-08;true;
+2025-10-11;National Uprising Day;2025-10-11;true;
+2025-10-23;Revolutionary Struggle Day;2025-10-23;true;
+2025-12-08;St. Clement of Ohrid Day;2025-12-08;true;
+2026-01-01;New Year's Day;2026-01-01;true;
+2026-01-07;Orthodox Christmas;2026-01-07;true;
+2026-03-20;Eid al-Fitr;2026-03-20;true;
+2026-04-13;Easter Monday;2026-04-13;true;
+2026-05-01;Labour Day;2026-05-01;true;
+2026-05-24;Saints Cyril and Methodius Day;2026-05-25;true;
+2026-08-02;Republic Day;2026-08-03;true;
+2026-09-08;Independence Day;2026-09-08;true;
+2026-10-11;National Uprising Day;2026-10-12;true;
+2026-10-23;Revolutionary Struggle Day;2026-10-23;true;
+2026-12-08;St. Clement of Ohrid Day;2026-12-08;true;

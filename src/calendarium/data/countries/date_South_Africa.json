@@ -1,0 +1,103 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "South_Africa",
+  "Culture": "en-ZA",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Human Rights Day",
+      "RuleDate": "3-21",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Family Day",
+      "RuleDate": "([EASTER]) + 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Freedom Day",
+      "RuleDate": "4-27",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Workers' Day",
+      "RuleDate": "5-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Youth Day",
+      "RuleDate": "6-16",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "National Women's Day",
+      "RuleDate": "8-9",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Heritage Day",
+      "RuleDate": "9-24",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Day of Reconciliation",
+      "RuleDate": "12-16",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Day of Goodwill",
+      "RuleDate": "12-26",
+      "RuleObserved": "? SUNDAY : >> MONDAY ; ? MONDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}

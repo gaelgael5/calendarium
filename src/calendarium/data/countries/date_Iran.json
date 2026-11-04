@@ -1,0 +1,252 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Iran",
+  "Culture": "fa-IR",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "Nowruz",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Calendar": "Persian",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Nowruz 2nd Day",
+      "RuleDate": "1-2",
+      "Free": true,
+      "Calendar": "Persian",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Nowruz 3rd Day",
+      "RuleDate": "1-3",
+      "Free": true,
+      "Calendar": "Persian",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Nowruz 4th Day",
+      "RuleDate": "1-4",
+      "Free": true,
+      "Calendar": "Persian",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Islamic Republic Day",
+      "RuleDate": "1-12",
+      "Free": true,
+      "Calendar": "Persian",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Nature Day",
+      "RuleDate": "1-13",
+      "Free": true,
+      "Calendar": "Persian",
+      "Translations": [],
+      "Tags": [
+        "Sizdah Bedar"
+      ]
+    },
+    {
+      "Name": "Death of Imam Khomeini",
+      "RuleDate": "3-14",
+      "Free": true,
+      "Calendar": "Persian",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Khordad Uprising Day",
+      "RuleDate": "3-15",
+      "Free": true,
+      "Calendar": "Persian",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Islamic Revolution Day",
+      "RuleDate": "11-22",
+      "Free": true,
+      "Calendar": "Persian",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Oil Nationalization Day",
+      "RuleDate": "12-29",
+      "Free": true,
+      "Calendar": "Persian",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Tasua",
+      "RuleDate": "1-9",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Ashura",
+      "RuleDate": "1-10",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Arbaeen",
+      "RuleDate": "2-20",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Death of the Prophet and Imam Hassan",
+      "RuleDate": "2-28",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Martyrdom of Imam Reza",
+      "RuleDate": "2-30",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day",
+        "end of Safar"
+      ]
+    },
+    {
+      "Name": "Birthday of the Prophet and Imam Sadiq",
+      "RuleDate": "3-17",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Martyrdom of Fatima",
+      "RuleDate": "6-3",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Birthday of Imam Ali",
+      "RuleDate": "7-13",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Mab'ath",
+      "RuleDate": "7-27",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Birthday of Imam Mahdi",
+      "RuleDate": "8-15",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Martyrdom of Imam Ali",
+      "RuleDate": "9-21",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Fitr",
+      "RuleDate": "10-1",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Fitr 2nd Day",
+      "RuleDate": "10-2",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Martyrdom of Imam Sadiq",
+      "RuleDate": "10-25",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Qorban",
+      "RuleDate": "12-10",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Ghadir",
+      "RuleDate": "12-18",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    }
+  ]
+}

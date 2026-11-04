@@ -1,0 +1,99 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Macedonia_FYRO",
+  "Culture": "mk-MK",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Orthodox Christmas",
+      "RuleDate": "1-7",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([ORTHODOX_EASTER]) + 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Saints Cyril and Methodius Day",
+      "RuleDate": "5-24",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Republic Day",
+      "RuleDate": "8-2",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "9-8",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "National Uprising Day",
+      "RuleDate": "10-11",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Revolutionary Struggle Day",
+      "RuleDate": "10-23",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "St. Clement of Ohrid Day",
+      "RuleDate": "12-8",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Eid al-Fitr",
+      "RuleDate": "10-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    }
+  ]
+}

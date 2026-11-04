@@ -1,0 +1,228 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Argentina",
+  "Culture": "es-AR",
+  "Calendar": "Gregorian",
+  "Url": "https://www.argentina.gob.ar/interior/feriados-nacionales",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Año Nuevo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Carnival Monday",
+      "RuleDate": "([EASTER]) - 48",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Carnaval"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Carnival Tuesday",
+      "RuleDate": "([EASTER]) - 47",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Carnaval"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Day of Remembrance for Truth and Justice",
+      "RuleDate": "3-24",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día Nacional de la Memoria por la Verdad y la Justicia"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Malvinas Veterans Day",
+      "RuleDate": "4-2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día del Veterano y de los Caídos en la Guerra de Malvinas"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Holy Thursday",
+      "RuleDate": "([EASTER]) - 3",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Jueves Santo"
+        }
+      ],
+      "Tags": [
+        "día no laborable (optional)"
+      ]
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Viernes Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día del Trabajador"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "May Revolution Day",
+      "RuleDate": "5-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Revolución de Mayo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Martin Miguel de Guemes Day",
+      "RuleDate": "6-17",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY) : << MONDAY ; ? (THURSDAY | FRIDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Paso a la Inmortalidad del Gral. Don Martín Miguel de Güemes"
+        }
+      ],
+      "Tags": [
+        "trasladable"
+      ]
+    },
+    {
+      "Name": "Flag Day",
+      "RuleDate": "6-20",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Paso a la Inmortalidad del Gral. Manuel Belgrano"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "7-9",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Independencia"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "San Martin Day",
+      "RuleDate": "8-17",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY) : << MONDAY ; ? (THURSDAY | FRIDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Paso a la Inmortalidad del Gral. José de San Martín"
+        }
+      ],
+      "Tags": [
+        "trasladable"
+      ]
+    },
+    {
+      "Name": "Day of Respect for Cultural Diversity",
+      "RuleDate": "10-12",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY) : << MONDAY ; ? (THURSDAY | FRIDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día del Respeto a la Diversidad Cultural"
+        }
+      ],
+      "Tags": [
+        "trasladable"
+      ]
+    },
+    {
+      "Name": "National Sovereignty Day",
+      "RuleDate": "11-20",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY) : << MONDAY ; ? (THURSDAY | FRIDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Soberanía Nacional"
+        }
+      ],
+      "Tags": [
+        "trasladable"
+      ]
+    },
+    {
+      "Name": "Immaculate Conception",
+      "RuleDate": "12-8",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Inmaculada Concepción de María"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Navidad"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}

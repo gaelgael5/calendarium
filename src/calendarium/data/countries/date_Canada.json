@@ -1,0 +1,117 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Canada",
+  "Culture": "en-CA",
+  "Calendar": "Gregorian",
+  "Url": "https://www.canada.ca/en/revenue-agency/services/tax/public-holidays.html",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? (SATURDAY | SUNDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([EASTER]) + 1",
+      "Free": false,
+      "Translations": [],
+      "Tags": [
+        "federal public service only"
+      ]
+    },
+    {
+      "Name": "Victoria Day",
+      "RuleDate": "(5-24) << MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "Monday preceding 25 May; not NS/NL/PE/NB statutory"
+      ]
+    },
+    {
+      "Name": "Canada Day",
+      "RuleDate": "7-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "moves to 2 July when 1 July is a Sunday"
+      ]
+    },
+    {
+      "Name": "Civic Holiday",
+      "RuleDate": "(8-1) >> MONDAY",
+      "Free": false,
+      "Translations": [],
+      "Tags": [
+        "first Monday of August; statutory only in some provinces"
+      ]
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "(9-1) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "first Monday of September"
+      ]
+    },
+    {
+      "Name": "National Day for Truth and Reconciliation",
+      "RuleDate": "9-30",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "federal holiday since 2021; adopted by several provinces"
+      ],
+      "YearStart": 2021
+    },
+    {
+      "Name": "Thanksgiving",
+      "RuleDate": "(10-8) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "second Monday of October; not statutory in Atlantic provinces"
+      ]
+    },
+    {
+      "Name": "Remembrance Day",
+      "RuleDate": "11-11",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "federal; not statutory in ON and QC"
+      ]
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Boxing Day",
+      "RuleDate": "12-26",
+      "RuleObserved": "? SATURDAY : >> MONDAY ; ? SUNDAY : >> TUESDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "federal and Ontario"
+      ]
+    }
+  ]
+}

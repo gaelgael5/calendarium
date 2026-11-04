@@ -1,0 +1,134 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Cyprus",
+  "Culture": "el-CY",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Epiphany",
+      "RuleDate": "1-6",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Clean Monday",
+      "RuleDate": "([ORTHODOX_EASTER]) - 48",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Greek Independence Day",
+      "RuleDate": "3-25",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "National Day",
+      "RuleDate": "4-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "EOKA anniversary"
+      ]
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([ORTHODOX_EASTER]) - 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Sunday",
+      "RuleDate": "[ORTHODOX_EASTER]",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([ORTHODOX_EASTER]) + 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Tuesday",
+      "RuleDate": "([ORTHODOX_EASTER]) + 2",
+      "Free": false,
+      "Translations": [],
+      "Tags": [
+        "public sector and banks"
+      ]
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Whit Monday",
+      "RuleDate": "([ORTHODOX_EASTER]) + 50",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "Kataklysmos"
+      ]
+    },
+    {
+      "Name": "Assumption",
+      "RuleDate": "8-15",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "10-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Ochi Day",
+      "RuleDate": "10-28",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Eve",
+      "RuleDate": "12-24",
+      "Free": false,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Boxing Day",
+      "RuleDate": "12-26",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}

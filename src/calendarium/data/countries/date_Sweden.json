@@ -1,0 +1,249 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Sweden",
+  "Culture": "sv-SE",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Nyårsdagen"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Epiphany",
+      "RuleDate": "1-6",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Trettondedag jul"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Långfredagen"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Sunday",
+      "RuleDate": "[EASTER]",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Påskdagen"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([EASTER]) + 1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Annandag påsk"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Walpurgis Night",
+      "RuleDate": "4-30",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Valborgsmässoafton"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "May Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Första maj"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Ascension",
+      "RuleDate": "([EASTER]) + 39",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Kristi himmelsfärdsdag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Whit Sunday",
+      "RuleDate": "([EASTER]) + 49",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Pingstdagen"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Whit Monday",
+      "RuleDate": "([EASTER]) + 50",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Annandag pingst"
+        }
+      ],
+      "Tags": [
+        "abolished from 2005"
+      ],
+      "YearEnd": 2004
+    },
+    {
+      "Name": "National Day",
+      "RuleDate": "6-6",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Sveriges nationaldag"
+        }
+      ],
+      "Tags": [
+        "public holiday since 2005"
+      ],
+      "YearStart": 2005
+    },
+    {
+      "Name": "Midsummer Eve",
+      "RuleDate": "(6-19) >> FRIDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Midsommarafton"
+        }
+      ],
+      "Tags": [
+        "de facto full holiday"
+      ]
+    },
+    {
+      "Name": "Midsummer Day",
+      "RuleDate": "(6-20) >> SATURDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Midsommardagen"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "All Saints' Day",
+      "RuleDate": "(10-31) >> SATURDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Alla helgons dag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "St. Lucia",
+      "RuleDate": "12-13",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Luciadagen"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Eve",
+      "RuleDate": "12-24",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Julafton"
+        }
+      ],
+      "Tags": [
+        "de facto full holiday"
+      ]
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Juldagen"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Boxing Day",
+      "RuleDate": "12-26",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Annandag jul"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "New Year's Eve",
+      "RuleDate": "12-31",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Swedish",
+          "Name": "Nyårsafton"
+        }
+      ],
+      "Tags": [
+        "de facto full holiday"
+      ]
+    }
+  ]
+}

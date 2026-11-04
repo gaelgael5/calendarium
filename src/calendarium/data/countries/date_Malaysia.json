@@ -1,0 +1,153 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Malaysia",
+  "Culture": "ms-MY",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": false,
+      "Translations": [],
+      "Tags": [
+        "holiday in most but not all states"
+      ]
+    },
+    {
+      "Name": "Chinese New Year",
+      "RuleDate": "1-1",
+      "RuleObserved": "? SUNDAY : + 2",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Chinese New Year 2nd Day",
+      "RuleDate": "1-2",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Hari Raya Aidilfitri",
+      "RuleDate": "10-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Hari Raya Aidilfitri 2nd Day",
+      "RuleDate": "10-2",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Wesak Day",
+      "RuleDate": "4-15",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Agong's Birthday",
+      "RuleDate": "(6-1) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "first Monday of June"
+      ]
+    },
+    {
+      "Name": "Hari Raya Haji",
+      "RuleDate": "12-10",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Awal Muharram",
+      "RuleDate": "1-1",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Merdeka Day",
+      "RuleDate": "8-31",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Malaysia Day",
+      "RuleDate": "9-16",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Prophet Muhammad's Birthday",
+      "RuleDate": "3-12",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Deepavali",
+      "RuleDate": "[DEEPAVALI]",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "gazetted dates; not a holiday in Sarawak; table through 2026"
+      ],
+      "YearStart": 2020,
+      "YearEnd": 2026
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "RuleObserved": "? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Dominican_Republic",
+  "Culture": "es-DO",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Año Nuevo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Epiphany",
+      "RuleDate": "1-6",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY) : << MONDAY ; ? (THURSDAY | FRIDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de los Santos Reyes"
+        }
+      ],
+      "Tags": [
+        "movable, ley 139-97"
+      ]
+    },
+    {
+      "Name": "Our Lady of Altagracia",
+      "RuleDate": "1-21",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Altagracia"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Duarte Day",
+      "RuleDate": "1-26",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY) : << MONDAY ; ? (THURSDAY | FRIDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de Duarte"
+        }
+      ],
+      "Tags": [
+        "movable, ley 139-97"
+      ]
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "2-27",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Independencia"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Viernes Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY) : << MONDAY ; ? (THURSDAY | FRIDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día del Trabajo"
+        }
+      ],
+      "Tags": [
+        "movable, ley 139-97"
+      ]
+    },
+    {
+      "Name": "Corpus Christi",
+      "RuleDate": "([EASTER]) + 60",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Corpus Christi"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Restoration Day",
+      "RuleDate": "8-16",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY) : << MONDAY ; ? (THURSDAY | FRIDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Restauración"
+        }
+      ],
+      "Tags": [
+        "movable, ley 139-97"
+      ]
+    },
+    {
+      "Name": "Our Lady of Mercedes",
+      "RuleDate": "9-24",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de las Mercedes"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Constitution Day",
+      "RuleDate": "11-6",
+      "RuleObserved": "? (TUESDAY | WEDNESDAY) : << MONDAY ; ? (THURSDAY | FRIDAY) : >> MONDAY",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Constitución"
+        }
+      ],
+      "Tags": [
+        "movable, ley 139-97"
+      ]
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Navidad"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Israel",
+  "Culture": "he-IL",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "Rosh Hashanah",
+      "RuleDate": "7-1",
+      "Free": true,
+      "Calendar": "Hebrew",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Rosh Hashanah 2nd Day",
+      "RuleDate": "7-2",
+      "Free": true,
+      "Calendar": "Hebrew",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Yom Kippur",
+      "RuleDate": "7-10",
+      "Free": true,
+      "Calendar": "Hebrew",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Sukkot",
+      "RuleDate": "7-15",
+      "Free": true,
+      "Calendar": "Hebrew",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Shemini Atzeret - Simchat Torah",
+      "RuleDate": "7-22",
+      "Free": true,
+      "Calendar": "Hebrew",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Passover",
+      "RuleDate": "1-15",
+      "Free": true,
+      "Calendar": "Hebrew",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Seventh Day of Passover",
+      "RuleDate": "1-21",
+      "Free": true,
+      "Calendar": "Hebrew",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "2-5",
+      "RuleObserved": "? FRIDAY : - 1 ; ? SATURDAY : - 2 ; ? MONDAY : + 1",
+      "Free": true,
+      "Calendar": "Hebrew",
+      "Translations": [],
+      "Tags": [
+        "5 Iyar; advanced from Fri/Sat, postponed from Monday"
+      ]
+    },
+    {
+      "Name": "Shavuot",
+      "RuleDate": "3-6",
+      "Free": true,
+      "Calendar": "Hebrew",
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}

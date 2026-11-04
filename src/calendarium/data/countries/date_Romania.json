@@ -1,0 +1,221 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Romania",
+  "Culture": "ro-RO",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Anul Nou"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Day after New Year",
+      "RuleDate": "1-2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Anul Nou"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Epiphany",
+      "RuleDate": "1-6",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Bobotează"
+        }
+      ],
+      "Tags": [
+        "public holiday since 2024"
+      ],
+      "YearStart": 2024
+    },
+    {
+      "Name": "St. John the Baptist",
+      "RuleDate": "1-7",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Sfântul Ion"
+        }
+      ],
+      "Tags": [
+        "public holiday since 2024"
+      ],
+      "YearStart": 2024
+    },
+    {
+      "Name": "Union Day",
+      "RuleDate": "1-24",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Unirea Principatelor Române"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([ORTHODOX_EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Vinerea Mare"
+        }
+      ],
+      "Tags": [],
+      "YearStart": 2018
+    },
+    {
+      "Name": "Easter Sunday",
+      "RuleDate": "[ORTHODOX_EASTER]",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Paștele"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([ORTHODOX_EASTER]) + 1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Paștele"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Ziua Muncii"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Children's Day",
+      "RuleDate": "6-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Ziua Copilului"
+        }
+      ],
+      "Tags": [],
+      "YearStart": 2017
+    },
+    {
+      "Name": "Whit Sunday",
+      "RuleDate": "([ORTHODOX_EASTER]) + 49",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Rusaliile"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Whit Monday",
+      "RuleDate": "([ORTHODOX_EASTER]) + 50",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Rusaliile"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Assumption",
+      "RuleDate": "8-15",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Adormirea Maicii Domnului"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "St. Andrew's Day",
+      "RuleDate": "11-30",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Sfântul Andrei"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "National Day",
+      "RuleDate": "12-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Ziua Națională"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Crăciunul"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas 2nd Day",
+      "RuleDate": "12-26",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Romania",
+          "Name": "Crăciunul"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}

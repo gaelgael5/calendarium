@@ -1,0 +1,146 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Puerto_Rico",
+  "Culture": "es-PR",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "RuleObserved": "? SATURDAY : << FRIDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Epiphany",
+      "RuleDate": "1-6",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de Reyes"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Martin Luther King Jr. Day",
+      "RuleDate": "(1-15) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "third Monday of January"
+      ]
+    },
+    {
+      "Name": "Washington's Birthday",
+      "RuleDate": "(2-15) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "third Monday of February"
+      ]
+    },
+    {
+      "Name": "Emancipation Day",
+      "RuleDate": "3-22",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Abolición de la Esclavitud"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Viernes Santo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Memorial Day",
+      "RuleDate": "(5-31) << MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "last Monday of May"
+      ]
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "7-4",
+      "RuleObserved": "? SATURDAY : << FRIDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Constitution Day",
+      "RuleDate": "7-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día de la Constitución de Puerto Rico"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labor Day",
+      "RuleDate": "(9-1) >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "first Monday of September"
+      ]
+    },
+    {
+      "Name": "Discovery of Puerto Rico",
+      "RuleDate": "11-19",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Spanish",
+          "Name": "Día del Descubrimiento de Puerto Rico"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Veterans Day",
+      "RuleDate": "11-11",
+      "RuleObserved": "? SATURDAY : << FRIDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Thanksgiving Day",
+      "RuleDate": "(11-22) >> THURSDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "fourth Thursday of November"
+      ]
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "RuleObserved": "? SATURDAY : << FRIDAY ; ? SUNDAY : >> MONDAY",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}

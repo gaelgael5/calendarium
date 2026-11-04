@@ -1,0 +1,164 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Egypt",
+  "Culture": "ar-EG",
+  "Calendar": "Gregorian",
+  "Url": "https://www.presidency.eg/",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "Coptic Christmas",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Calendar": "Julian",
+      "Translations": [],
+      "Tags": [
+        "7 January Gregorian"
+      ]
+    },
+    {
+      "Name": "Revolution Day January 25",
+      "RuleDate": "1-25",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "also Police Day"
+      ]
+    },
+    {
+      "Name": "Sham El Nessim",
+      "RuleDate": "([ORTHODOX_EASTER]) + 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "Monday after Coptic Easter"
+      ]
+    },
+    {
+      "Name": "Sinai Liberation Day",
+      "RuleDate": "4-25",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "June 30 Revolution Day",
+      "RuleDate": "6-30",
+      "Free": true,
+      "Translations": [],
+      "Tags": [],
+      "YearStart": 2014
+    },
+    {
+      "Name": "Revolution Day July 23",
+      "RuleDate": "7-23",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Armed Forces Day",
+      "RuleDate": "10-6",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Islamic New Year",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Prophet's Birthday",
+      "RuleDate": "3-12",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Fitr",
+      "RuleDate": "10-1",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Fitr 2nd Day",
+      "RuleDate": "10-2",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Fitr 3rd Day",
+      "RuleDate": "10-3",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Arafat Day",
+      "RuleDate": "12-9",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Adha",
+      "RuleDate": "12-10",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Adha 2nd Day",
+      "RuleDate": "12-11",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    },
+    {
+      "Name": "Eid al-Adha 3rd Day",
+      "RuleDate": "12-12",
+      "Free": true,
+      "Calendar": "Hijri",
+      "Translations": [],
+      "Tags": [
+        "tabular Islamic calendar; may differ by one day"
+      ]
+    }
+  ]
+}

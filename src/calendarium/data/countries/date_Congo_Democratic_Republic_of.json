@@ -1,0 +1,117 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Congo_Democratic_Republic_of",
+  "Culture": "fr-CD",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "French",
+          "Name": "Jour de l'an"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Martyrs' Day",
+      "RuleDate": "1-4",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "French",
+          "Name": "Journée des Martyrs"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "National Heroes' Day - Kabila",
+      "RuleDate": "1-16",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "French",
+          "Name": "Journée des Héros nationaux - Laurent-Désiré Kabila"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "National Heroes' Day - Lumumba",
+      "RuleDate": "1-17",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "French",
+          "Name": "Journée des Héros nationaux - Patrice Emery Lumumba"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "French",
+          "Name": "Fête du Travail"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Liberation Day",
+      "RuleDate": "5-17",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "French",
+          "Name": "Journée de la Révolution et des Forces Armées"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "6-30",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "French",
+          "Name": "Fête de l'Indépendance"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Parents' Day",
+      "RuleDate": "8-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "French",
+          "Name": "Fête des Parents"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "French",
+          "Name": "Noël"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}

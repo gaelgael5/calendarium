@@ -1,0 +1,82 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Belarus",
+  "Culture": "be-BY",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "New Year 2nd Day",
+      "RuleDate": "1-2",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "public holiday since 2020"
+      ],
+      "YearStart": 2020
+    },
+    {
+      "Name": "Orthodox Christmas",
+      "RuleDate": "1-7",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "International Women's Day",
+      "RuleDate": "3-8",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Radunitsa",
+      "RuleDate": "([ORTHODOX_EASTER]) + 9",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Victory Day",
+      "RuleDate": "5-9",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "7-3",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "October Revolution Day",
+      "RuleDate": "11-7",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Catholic Christmas",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}

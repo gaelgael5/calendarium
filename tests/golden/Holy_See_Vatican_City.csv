@@ -1,0 +1,50 @@
+# Calendarium golden snapshot -- human-reviewed reference output
+# country: Holy_See_Vatican_City
+# years: 2024,2025,2026
+# regenerate: python scripts/update_golden.py Holy_See_Vatican_City
+date;name;observed;free;regions
+2024-01-01;Solemnity of Mary Mother of God;2024-01-01;true;
+2024-01-06;Epiphany;2024-01-06;true;
+2024-02-11;Lateran Treaty Day;2024-02-11;true;
+2024-03-13;Anniversary of the Election of Pope Francis;2024-03-13;true;
+2024-03-19;Feast of Saint Joseph;2024-03-19;true;
+2024-04-01;Easter Monday;2024-04-01;true;
+2024-04-23;Saint George;2024-04-23;true;
+2024-05-01;Saint Joseph the Worker;2024-05-01;true;
+2024-06-29;Feast of Saints Peter and Paul;2024-06-29;true;
+2024-08-14;Vigil of Assumption;2024-08-14;true;
+2024-08-15;Assumption;2024-08-15;true;
+2024-11-01;All Saints' Day;2024-11-01;true;
+2024-12-08;Immaculate Conception;2024-12-08;true;
+2024-12-25;Christmas;2024-12-25;true;
+2024-12-26;St. Stephen's Day;2024-12-26;true;
+2025-01-01;Solemnity of Mary Mother of God;2025-01-01;true;
+2025-01-06;Epiphany;2025-01-06;true;
+2025-02-11;Lateran Treaty Day;2025-02-11;true;
+2025-03-13;Anniversary of the Election of Pope Francis;2025-03-13;true;
+2025-03-19;Feast of Saint Joseph;2025-03-19;true;
+2025-04-21;Easter Monday;2025-04-21;true;
+2025-04-23;Saint George;2025-04-23;true;
+2025-05-01;Saint Joseph the Worker;2025-05-01;true;
+2025-06-29;Feast of Saints Peter and Paul;2025-06-29;true;
+2025-08-14;Vigil of Assumption;2025-08-14;true;
+2025-08-15;Assumption;2025-08-15;true;
+2025-11-01;All Saints' Day;2025-11-01;true;
+2025-12-08;Immaculate Conception;2025-12-08;true;
+2025-12-25;Christmas;2025-12-25;true;
+2025-12-26;St. Stephen's Day;2025-12-26;true;
+2026-01-01;Solemnity of Mary Mother of God;2026-01-01;true;
+2026-01-06;Epiphany;2026-01-06;true;
+2026-02-11;Lateran Treaty Day;2026-02-11;true;
+2026-03-13;Anniversary of the Election of Pope Francis;2026-03-13;true;
+2026-03-19;Feast of Saint Joseph;2026-03-19;true;
+2026-04-06;Easter Monday;2026-04-06;true;
+2026-04-23;Saint George;2026-04-23;true;
+2026-05-01;Saint Joseph the Worker;2026-05-01;true;
+2026-06-29;Feast of Saints Peter and Paul;2026-06-29;true;
+2026-08-14;Vigil of Assumption;2026-08-14;true;
+2026-08-15;Assumption;2026-08-15;true;
+2026-11-01;All Saints' Day;2026-11-01;true;
+2026-12-08;Immaculate Conception;2026-12-08;true;
+2026-12-25;Christmas;2026-12-25;true;
+2026-12-26;St. Stephen's Day;2026-12-26;true;

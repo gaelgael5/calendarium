@@ -1,0 +1,113 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "China",
+  "Culture": "zh-CN",
+  "Calendar": "Gregorian",
+  "Url": "https://www.gov.cn/",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Chinese New Year's Eve",
+      "RuleDate": "(1-1) - 1",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": [
+        "statutory since 2025; previously granted via the annual arrangement"
+      ],
+      "YearStart": 2025
+    },
+    {
+      "Name": "Chinese New Year",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Chinese New Year 2nd Day",
+      "RuleDate": "1-2",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Chinese New Year 3rd Day",
+      "RuleDate": "1-3",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Qingming Festival",
+      "RuleDate": "[QINGMING]",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day 2nd Day",
+      "RuleDate": "5-2",
+      "Free": true,
+      "Translations": [],
+      "Tags": [
+        "statutory since 2025"
+      ],
+      "YearStart": 2025
+    },
+    {
+      "Name": "Dragon Boat Festival",
+      "RuleDate": "5-5",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Mid-Autumn Festival",
+      "RuleDate": "8-15",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "National Day",
+      "RuleDate": "10-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "National Day 2nd Day",
+      "RuleDate": "10-2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "National Day 3rd Day",
+      "RuleDate": "10-3",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}

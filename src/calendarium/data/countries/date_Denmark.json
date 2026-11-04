@@ -1,0 +1,187 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Denmark",
+  "Culture": "da-DK",
+  "Calendar": "Gregorian",
+  "Url": "https://www.retsinformation.dk/",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Danish",
+          "Name": "Nytårsdag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Maundy Thursday",
+      "RuleDate": "([EASTER]) - 3",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Danish",
+          "Name": "Skærtorsdag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Danish",
+          "Name": "Langfredag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Sunday",
+      "RuleDate": "[EASTER]",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Danish",
+          "Name": "Påskedag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Easter Monday",
+      "RuleDate": "([EASTER]) + 1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Danish",
+          "Name": "2. påskedag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Great Prayer Day",
+      "RuleDate": "([EASTER]) + 26",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Danish",
+          "Name": "Store bededag"
+        }
+      ],
+      "Tags": [
+        "abolished from 2024"
+      ],
+      "YearEnd": 2023
+    },
+    {
+      "Name": "Ascension",
+      "RuleDate": "([EASTER]) + 39",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Danish",
+          "Name": "Kristi himmelfartsdag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Whit Sunday",
+      "RuleDate": "([EASTER]) + 49",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Danish",
+          "Name": "Pinsedag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Whit Monday",
+      "RuleDate": "([EASTER]) + 50",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Danish",
+          "Name": "2. pinsedag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Constitution Day",
+      "RuleDate": "6-5",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Danish",
+          "Name": "Grundlovsdag"
+        }
+      ],
+      "Tags": [
+        "not statutory; day off in many sectors"
+      ]
+    },
+    {
+      "Name": "Christmas Eve",
+      "RuleDate": "12-24",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Danish",
+          "Name": "Juleaften"
+        }
+      ],
+      "Tags": [
+        "not statutory; day off in many sectors"
+      ]
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Danish",
+          "Name": "Juledag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas 2nd Day",
+      "RuleDate": "12-26",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Danish",
+          "Name": "2. juledag"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "New Year's Eve",
+      "RuleDate": "12-31",
+      "Free": false,
+      "Translations": [
+        {
+          "Language": "Danish",
+          "Name": "Nytårsaften"
+        }
+      ],
+      "Tags": [
+        "not statutory; day off in many sectors"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Angola",
+  "Culture": "pt-AO",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Ano Novo"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Liberation Movement Day",
+      "RuleDate": "2-4",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Dia do Início da Luta Armada"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Carnival Tuesday",
+      "RuleDate": "([EASTER]) - 47",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Carnaval"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "International Women's Day",
+      "RuleDate": "3-8",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Dia Internacional da Mulher"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Southern Africa Liberation Day",
+      "RuleDate": "3-23",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Dia da Libertação da África Austral"
+        }
+      ],
+      "Tags": [],
+      "YearStart": 2019
+    },
+    {
+      "Name": "Peace Day",
+      "RuleDate": "4-4",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Dia da Paz e Reconciliação"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Sexta-feira Santa"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Dia do Trabalhador"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "National Heroes' Day",
+      "RuleDate": "9-17",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Dia do Herói Nacional"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "All Souls' Day",
+      "RuleDate": "11-2",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Dia dos Finados"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Independence Day",
+      "RuleDate": "11-11",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Dia da Independência"
+        }
+      ],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [
+        {
+          "Language": "Portuguese",
+          "Name": "Natal"
+        }
+      ],
+      "Tags": []
+    }
+  ]
+}

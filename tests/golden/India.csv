@@ -1,0 +1,14 @@
+# Calendarium golden snapshot -- human-reviewed reference output
+# country: India
+# years: 2024,2025,2026
+# regenerate: python scripts/update_golden.py India
+date;name;observed;free;regions
+2024-01-26;Republic Day;2024-01-26;true;
+2024-08-15;Independence Day;2024-08-15;true;
+2024-10-02;Gandhi Jayanti;2024-10-02;true;
+2025-01-26;Republic Day;2025-01-26;true;
+2025-08-15;Independence Day;2025-08-15;true;
+2025-10-02;Gandhi Jayanti;2025-10-02;true;
+2026-01-26;Republic Day;2026-01-26;true;
+2026-08-15;Independence Day;2026-08-15;true;
+2026-10-02;Gandhi Jayanti;2026-10-02;true;
