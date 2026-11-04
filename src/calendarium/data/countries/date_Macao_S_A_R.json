@@ -1,0 +1,156 @@
+{
+  "$schema": "/_schema.CountryConfiguration.json",
+  "Country": "Macao_S_A_R",
+  "Culture": "zh-MO",
+  "Calendar": "Gregorian",
+  "Regions": [],
+  "Periods": [
+    {
+      "Name": "New Year's Day",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Lunar New Year",
+      "RuleDate": "1-1",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Lunar New Year 2nd Day",
+      "RuleDate": "1-2",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Lunar New Year 3rd Day",
+      "RuleDate": "1-3",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Ching Ming Festival",
+      "RuleDate": "[QINGMING]",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Good Friday",
+      "RuleDate": "([EASTER]) - 2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Holy Saturday",
+      "RuleDate": "([EASTER]) - 1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Labour Day",
+      "RuleDate": "5-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Buddha's Birthday",
+      "RuleDate": "4-8",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Tuen Ng Festival",
+      "RuleDate": "5-5",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Day following Mid-Autumn Festival",
+      "RuleDate": "8-16",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "National Day",
+      "RuleDate": "10-1",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "National Day 2nd Day",
+      "RuleDate": "10-2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Chung Yeung Festival",
+      "RuleDate": "9-9",
+      "Free": true,
+      "Calendar": "Chinese",
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "All Souls' Day",
+      "RuleDate": "11-2",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Immaculate Conception",
+      "RuleDate": "12-8",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Macao SAR Establishment Day",
+      "RuleDate": "12-20",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Winter Solstice",
+      "RuleDate": "[DONGZHI]",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Eve",
+      "RuleDate": "12-24",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    },
+    {
+      "Name": "Christmas Day",
+      "RuleDate": "12-25",
+      "Free": true,
+      "Translations": [],
+      "Tags": []
+    }
+  ]
+}
