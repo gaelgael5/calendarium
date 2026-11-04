@@ -169,6 +169,10 @@ Available in any rule as `[NAME]`:
 | `[ROSH_HASHANAH]` | 1 Tishri |
 | `[YOM_KIPPUR]` | 10 Tishri |
 | `[HANUKKAH]` | first day — 25 Kislev |
+| `[VERNAL_EQUINOX_JAPAN]` | Shunbun no hi (official arithmetic formula, 1980–2099) |
+| `[AUTUMNAL_EQUINOX_JAPAN]` | Shubun no hi (official arithmetic formula, 1980–2099) |
+| `[MATARIKI]` | New Zealand gazetted Matariki dates (2022–2030) |
+| `[JUNE_SOLSTICE_CHILE]` | Chilean Indigenous Peoples' Day (law 21.357 solstice dates) |
 
 The registry is extensible:
 
@@ -231,11 +235,19 @@ Concretely:
 
 ## Data tiers
 
-* `data/countries/` — verified configurations (France, Germany, Italy,
-  Saudi Arabia, …);
-* `data/countries/not_checked/` — configurations imported from the original
-  project but not yet verified. Load them with
-  `Calendarium.bundled(include_not_checked=True)` or the CLI flag `--all`.
+* `data/countries/` — verified configurations (100 countries). Each was
+  reviewed against its official holiday list, with substitute-day and
+  moving rules encoded (see the per-country git history), and is pinned by
+  a golden snapshot in `tests/golden/`.
+* `data/countries/not_checked/` — the remaining unverified configurations
+  (11 countries), each blocked for a documented reason — mostly the
+  Chinese lunisolar calendar — see
+  [`not_checked/README.md`](src/calendarium/data/countries/not_checked/README.md).
+  Load them with `Calendarium.bundled(include_not_checked=True)` or the
+  CLI flag `--all`.
+
+Dates on the tabular Islamic calendar are tagged in the files: countries
+following actual moon sighting can differ by one day.
 
 ## Validating the referential
 
