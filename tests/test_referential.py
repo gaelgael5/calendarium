@@ -152,6 +152,29 @@ def test_function_rules_run_on_a_year_stable_calendar(tier, configuration):
             )
 
 
+def test_gazetted_period_bounds_match_the_tables():
+    """A period computed from a gazetted table must be year-bounded to
+    exactly what the table covers: extending a table without raising the
+    YearEnd bounds would silently stop producing the holiday."""
+    from calendarium.rules import gazetted_coverage
+
+    coverage = gazetted_coverage()
+    found = 0
+    for configuration in CHECKED:
+        for period in configuration.periods:
+            for name, (first, last) in coverage.items():
+                if f"[{name}]" in period.rule_date.upper():
+                    found += 1
+                    assert period.year_start is not None and period.year_start >= first, (
+                        f"{configuration.country}/{period.name}: YearStart must be >= {first}"
+                    )
+                    assert period.year_end == last, (
+                        f"{configuration.country}/{period.name}: YearEnd {period.year_end} "
+                        f"!= table end {last} ([{name}])"
+                    )
+    assert found >= 6  # NZ Matariki, SG/MY/TT Deepavali, TH Buchas
+
+
 @pytest.mark.parametrize("tier,configuration", ALL, ids=ALL_IDS)
 def test_regions_are_consistent(tier, configuration):
     keys = [region.key for region in configuration.regions]

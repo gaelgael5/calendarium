@@ -1,0 +1,47 @@
+name: Referential maintenance
+
+on:
+  schedule:
+    # monthly, 1st at 06:17 UTC
+    - cron: "17 6 1 * *"
+  workflow_dispatch:
+
+jobs:
+  check-gazetted-tables:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check table coverage
+        id: check
+        run: |
+          if python scripts/check_gazetted_tables.py | tee report.txt; then
+            echo "stale=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "stale=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Open or update the maintenance issue
+        if: steps.check.outputs.stale == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh label create referential-maintenance \
+            --description "Gazetted tables need newly published dates" \
+            --color D93F0B --force
+          body="$(printf 'Automatic monthly check.\n\n```\n%s\n```\n' "$(cat report.txt)")"
+          existing=$(gh issue list --label referential-maintenance --state open \
+            --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create \
+              --title "Extend the gazetted tables (Matariki / Deepavali / Thai Bucha)" \
+              --label referential-maintenance \
+              --body "$body"
+          fi

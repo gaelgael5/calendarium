@@ -214,8 +214,8 @@ Available in any rule as `[NAME]`:
 | `[JUNE_SOLSTICE_CHILE]` | Chilean Indigenous Peoples' Day (law 21.357 solstice dates) |
 | `[QINGMING]` | Qingming festival — solar term at 15° (UTC+8) |
 | `[DONGZHI]` | East Asian winter solstice festival (UTC+8) |
-| `[DEEPAVALI]` | Gazetted Deepavali dates (2020–2026) |
-| `[MAKHA_BUCHA]` / `[VISAKHA_BUCHA]` / `[ASARNHA_BUCHA]` | Thai Buddhist holidays, gazetted dates (2020–2026) |
+| `[DEEPAVALI]` | Gazetted Deepavali dates (2020–2027) |
+| `[MAKHA_BUCHA]` / `[VISAKHA_BUCHA]` / `[ASARNHA_BUCHA]` | Thai Buddhist holidays, gazetted dates (2020–2027) |
 
 The registry is extensible:
 

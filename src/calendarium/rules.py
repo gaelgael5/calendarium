@@ -146,7 +146,7 @@ def _dongzhi(year: int) -> List[date]:
 #: Gazetted Deepavali dates (Singapore/Malaysia official calendars).
 _DEEPAVALI = {
     2020: (11, 14), 2021: (11, 4), 2022: (10, 24), 2023: (11, 12),
-    2024: (10, 31), 2025: (10, 20), 2026: (11, 8),
+    2024: (10, 31), 2025: (10, 20), 2026: (11, 8), 2027: (10, 28),
 }
 
 
@@ -165,15 +165,15 @@ def _deepavali(year: int) -> List[date]:
 _THAI_BUCHA = {
     "MAKHA_BUCHA": {
         2020: (2, 8), 2021: (2, 26), 2022: (2, 16), 2023: (3, 6),
-        2024: (2, 24), 2025: (2, 12), 2026: (3, 3),
+        2024: (2, 24), 2025: (2, 12), 2026: (3, 3), 2027: (2, 21),
     },
     "VISAKHA_BUCHA": {
         2020: (5, 6), 2021: (5, 26), 2022: (5, 15), 2023: (6, 3),
-        2024: (5, 22), 2025: (5, 11), 2026: (5, 31),
+        2024: (5, 22), 2025: (5, 11), 2026: (5, 31), 2027: (5, 20),
     },
     "ASARNHA_BUCHA": {
         2020: (7, 5), 2021: (7, 24), 2022: (7, 13), 2023: (8, 1),
-        2024: (7, 20), 2025: (7, 10), 2026: (7, 29),
+        2024: (7, 20), 2025: (7, 10), 2026: (7, 29), 2027: (7, 18),
     },
 }
 
@@ -215,6 +215,21 @@ _FUNCTIONS: dict[str, Callable[[int], List[date]]] = {
 def register_function(name: str, fn: Callable[[int], List[date]]) -> None:
     """Register (or override) a named computed date usable as ``[NAME]``."""
     _FUNCTIONS[name.upper()] = fn
+
+
+def gazetted_coverage() -> dict:
+    """Year coverage of the gazetted tables, ``{function: (first, last)}``.
+
+    These tables (Matariki, Deepavali, the Thai Bucha days) come from
+    official gazettes and must be extended by hand as new dates are
+    published; ``scripts/check_gazetted_tables.py`` monitors them.
+    """
+    tables = {
+        "MATARIKI": _MATARIKI,
+        "DEEPAVALI": _DEEPAVALI,
+        **_THAI_BUCHA,
+    }
+    return {name: (min(table), max(table)) for name, table in tables.items()}
 
 
 def registered_functions() -> tuple[str, ...]:
